@@ -374,7 +374,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Shiwake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = generalbelly.Shiwake;
+				PRODUCT_BUNDLE_IDENTIFIER = com.generalbelly.shiwake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Shiwake/Shiwake-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -389,7 +389,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Shiwake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = generalbelly.Shiwake;
+				PRODUCT_BUNDLE_IDENTIFIER = com.generalbelly.shiwake;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Shiwake/Shiwake-Bridging-Header.h";
 			};
