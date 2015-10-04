@@ -1,0 +1,764 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C7Shiwake11AppDelegate"
+provides-member:
+- ["C7Shiwake11AppDelegate", ""]
+provides-dynamic-lookup:
+- "applicationWillResignActive"
+- "applicationDidEnterBackground"
+- "applicationWillTerminate"
+- "application"
+- "applicationDidBecomeActive"
+- "applicationWillEnterForeground"
+- "sharedContext"
+- "window"
+depends-top-level:
+- "Bool"
+- "UIWindow"
+- "UIApplication"
+- !private "CoreDataStackManager"
+- !private "UIColor"
+- !private "UINavigationBar"
+- !private "UITabBar"
+- "UIResponder"
+- !private "DISPATCH_QUEUE_PRIORITY_DEFAULT"
+- !private "&&"
+- !private "dispatch_async"
+- "NSObject"
+- !private "dispatch_get_global_queue"
+- !private "GmailClientHelper"
+- !private "Dictionary"
+- !private "StringLiteralType"
+- "AppDelegate"
+- !private "NSForegroundColorAttributeName"
+- !private ">"
+- !private "BooleanLiteralType"
+- "UIApplicationDelegate"
+- "AnyObject"
+- "NSManagedObjectContext"
+- !private "!="
+depends-member:
+- !private ["PSs9AnyObject", "CoreDataStackManager"]
+- !private ["PSs9AnyObject", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["PSs9AnyObject", "GmailClientHelper"]
+- !private ["PSs9AnyObject", "NSForegroundColorAttributeName"]
+- !private ["PSs9AnyObject", "UIColor"]
+- !private ["PSs9AnyObject", "UINavigationBar"]
+- !private ["PSs9AnyObject", "UITabBar"]
+- !private ["PSs9AnyObject", "appearance"]
+- ["PSs9AnyObject", "application"]
+- ["PSs9AnyObject", "applicationDidBecomeActive"]
+- ["PSs9AnyObject", "applicationDidEnterBackground"]
+- ["PSs9AnyObject", "applicationDidFinishLaunching"]
+- ["PSs9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["PSs9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["PSs9AnyObject", "applicationSignificantTimeChange"]
+- ["PSs9AnyObject", "applicationWillEnterForeground"]
+- ["PSs9AnyObject", "applicationWillResignActive"]
+- ["PSs9AnyObject", "applicationWillTerminate"]
+- !private ["PSs9AnyObject", "barTintColor"]
+- !private ["PSs9AnyObject", "deleteObject"]
+- !private ["PSs9AnyObject", "dispatch_async"]
+- !private ["PSs9AnyObject", "dispatch_get_global_queue"]
+- !private ["PSs9AnyObject", "fetchAllMails"]
+- !private ["PSs9AnyObject", "hex"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "managedObjectContext"]
+- !private ["PSs9AnyObject", "queryForLabel"]
+- !private ["PSs9AnyObject", "saveContext"]
+- ["PSs9AnyObject", "sharedContext"]
+- ["PSs9AnyObject", "sharedContext.storage"]
+- !private ["PSs9AnyObject", "sharedInstance"]
+- !private ["PSs9AnyObject", "tintColor"]
+- !private ["PSs9AnyObject", "titleTextAttributes"]
+- !private ["PSs9AnyObject", "translucent"]
+- !private ["PSs9AnyObject", "whiteColor"]
+- ["PSs9AnyObject", "window"]
+- ["PSs9AnyObject", ""]
+- ["C7Shiwake11AppDelegate", "AnyObject"]
+- ["C7Shiwake11AppDelegate", "Bool"]
+- !private ["C7Shiwake11AppDelegate", "CoreDataStackManager"]
+- !private ["C7Shiwake11AppDelegate", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["C7Shiwake11AppDelegate", "GmailClientHelper"]
+- !private ["C7Shiwake11AppDelegate", "NSForegroundColorAttributeName"]
+- ["C7Shiwake11AppDelegate", "NSManagedObjectContext"]
+- ["C7Shiwake11AppDelegate", "NSObject"]
+- ["C7Shiwake11AppDelegate", "UIApplication"]
+- !private ["C7Shiwake11AppDelegate", "UIColor"]
+- !private ["C7Shiwake11AppDelegate", "UINavigationBar"]
+- !private ["C7Shiwake11AppDelegate", "UITabBar"]
+- ["C7Shiwake11AppDelegate", "UIWindow"]
+- ["C7Shiwake11AppDelegate", "application"]
+- ["C7Shiwake11AppDelegate", "applicationDidBecomeActive"]
+- ["C7Shiwake11AppDelegate", "applicationDidEnterBackground"]
+- ["C7Shiwake11AppDelegate", "applicationDidFinishLaunching"]
+- ["C7Shiwake11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C7Shiwake11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C7Shiwake11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C7Shiwake11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C7Shiwake11AppDelegate", "applicationSignificantTimeChange"]
+- ["C7Shiwake11AppDelegate", "applicationWillEnterForeground"]
+- ["C7Shiwake11AppDelegate", "applicationWillResignActive"]
+- ["C7Shiwake11AppDelegate", "applicationWillTerminate"]
+- ["C7Shiwake11AppDelegate", "deinit"]
+- !private ["C7Shiwake11AppDelegate", "dispatch_async"]
+- !private ["C7Shiwake11AppDelegate", "dispatch_get_global_queue"]
+- ["C7Shiwake11AppDelegate", "init"]
+- ["C7Shiwake11AppDelegate", "sharedContext"]
+- !private ["C7Shiwake11AppDelegate", "sharedContext.storage"]
+- ["C7Shiwake11AppDelegate", "window"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "first"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "count"]
+- !private ["PSs23ArrayLiteralConvertible", "first"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "CoreDataStackManager"]
+- !private ["PSs11CVarArgType", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "GmailClientHelper"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "NSForegroundColorAttributeName"]
+- !private ["PSs11CVarArgType", "UIColor"]
+- !private ["PSs11CVarArgType", "UINavigationBar"]
+- !private ["PSs11CVarArgType", "UITabBar"]
+- !private ["PSs11CVarArgType", "appearance"]
+- ["PSs11CVarArgType", "application"]
+- ["PSs11CVarArgType", "applicationDidBecomeActive"]
+- ["PSs11CVarArgType", "applicationDidEnterBackground"]
+- ["PSs11CVarArgType", "applicationDidFinishLaunching"]
+- ["PSs11CVarArgType", "applicationDidReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs11CVarArgType", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs11CVarArgType", "applicationShouldRequestHealthAuthorization"]
+- ["PSs11CVarArgType", "applicationSignificantTimeChange"]
+- ["PSs11CVarArgType", "applicationWillEnterForeground"]
+- ["PSs11CVarArgType", "applicationWillResignActive"]
+- ["PSs11CVarArgType", "applicationWillTerminate"]
+- !private ["PSs11CVarArgType", "barTintColor"]
+- !private ["PSs11CVarArgType", "deleteObject"]
+- !private ["PSs11CVarArgType", "dispatch_async"]
+- !private ["PSs11CVarArgType", "dispatch_get_global_queue"]
+- !private ["PSs11CVarArgType", "hex"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "sharedContext"]
+- ["PSs11CVarArgType", "sharedContext.storage"]
+- !private ["PSs11CVarArgType", "tintColor"]
+- !private ["PSs11CVarArgType", "titleTextAttributes"]
+- !private ["PSs11CVarArgType", "translucent"]
+- !private ["PSs11CVarArgType", "whiteColor"]
+- ["PSs11CVarArgType", "window"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "count"]
+- !private ["PSs14CollectionType", "first"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["C7Shiwake20CoreDataStackManager", "managedObjectContext"]
+- !private ["C7Shiwake20CoreDataStackManager", "saveContext"]
+- !private ["C7Shiwake20CoreDataStackManager", "sharedInstance"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "count"]
+- !private ["PSs28CustomDebugStringConvertible", "first"]
+- !private ["PSs23CustomStringConvertible", "CoreDataStackManager"]
+- !private ["PSs23CustomStringConvertible", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "GmailClientHelper"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "NSForegroundColorAttributeName"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "UIColor"]
+- !private ["PSs23CustomStringConvertible", "UINavigationBar"]
+- !private ["PSs23CustomStringConvertible", "UITabBar"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "appearance"]
+- ["PSs23CustomStringConvertible", "application"]
+- ["PSs23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["PSs23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["PSs23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["PSs23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["PSs23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["PSs23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["PSs23CustomStringConvertible", "applicationWillResignActive"]
+- ["PSs23CustomStringConvertible", "applicationWillTerminate"]
+- !private ["PSs23CustomStringConvertible", "barTintColor"]
+- !private ["PSs23CustomStringConvertible", "count"]
+- !private ["PSs23CustomStringConvertible", "deleteObject"]
+- !private ["PSs23CustomStringConvertible", "dispatch_async"]
+- !private ["PSs23CustomStringConvertible", "dispatch_get_global_queue"]
+- !private ["PSs23CustomStringConvertible", "first"]
+- !private ["PSs23CustomStringConvertible", "hex"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "sharedContext"]
+- ["PSs23CustomStringConvertible", "sharedContext.storage"]
+- !private ["PSs23CustomStringConvertible", "tintColor"]
+- !private ["PSs23CustomStringConvertible", "titleTextAttributes"]
+- !private ["PSs23CustomStringConvertible", "translucent"]
+- !private ["PSs23CustomStringConvertible", "whiteColor"]
+- ["PSs23CustomStringConvertible", "window"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs9Equatable", "CoreDataStackManager"]
+- !private ["PSs9Equatable", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "GmailClientHelper"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "NSForegroundColorAttributeName"]
+- !private ["PSs9Equatable", "UIColor"]
+- !private ["PSs9Equatable", "UINavigationBar"]
+- !private ["PSs9Equatable", "UITabBar"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "appearance"]
+- ["PSs9Equatable", "application"]
+- ["PSs9Equatable", "applicationDidBecomeActive"]
+- ["PSs9Equatable", "applicationDidEnterBackground"]
+- ["PSs9Equatable", "applicationDidFinishLaunching"]
+- ["PSs9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["PSs9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["PSs9Equatable", "applicationSignificantTimeChange"]
+- ["PSs9Equatable", "applicationWillEnterForeground"]
+- ["PSs9Equatable", "applicationWillResignActive"]
+- ["PSs9Equatable", "applicationWillTerminate"]
+- !private ["PSs9Equatable", "barTintColor"]
+- !private ["PSs9Equatable", "deleteObject"]
+- !private ["PSs9Equatable", "dispatch_async"]
+- !private ["PSs9Equatable", "dispatch_get_global_queue"]
+- !private ["PSs9Equatable", "hex"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "sharedContext"]
+- ["PSs9Equatable", "sharedContext.storage"]
+- !private ["PSs9Equatable", "tintColor"]
+- !private ["PSs9Equatable", "titleTextAttributes"]
+- !private ["PSs9Equatable", "translucent"]
+- !private ["PSs9Equatable", "whiteColor"]
+- ["PSs9Equatable", "window"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["C7Shiwake17GmailClientHelper", "fetchAllMails"]
+- !private ["C7Shiwake17GmailClientHelper", "queryForLabel"]
+- !private ["C7Shiwake17GmailClientHelper", "sharedInstance"]
+- !private ["PSs8Hashable", "CoreDataStackManager"]
+- !private ["PSs8Hashable", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "GmailClientHelper"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "NSForegroundColorAttributeName"]
+- !private ["PSs8Hashable", "UIColor"]
+- !private ["PSs8Hashable", "UINavigationBar"]
+- !private ["PSs8Hashable", "UITabBar"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "appearance"]
+- ["PSs8Hashable", "application"]
+- ["PSs8Hashable", "applicationDidBecomeActive"]
+- ["PSs8Hashable", "applicationDidEnterBackground"]
+- ["PSs8Hashable", "applicationDidFinishLaunching"]
+- ["PSs8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["PSs8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["PSs8Hashable", "applicationSignificantTimeChange"]
+- ["PSs8Hashable", "applicationWillEnterForeground"]
+- ["PSs8Hashable", "applicationWillResignActive"]
+- ["PSs8Hashable", "applicationWillTerminate"]
+- !private ["PSs8Hashable", "barTintColor"]
+- !private ["PSs8Hashable", "deleteObject"]
+- !private ["PSs8Hashable", "dispatch_async"]
+- !private ["PSs8Hashable", "dispatch_get_global_queue"]
+- !private ["PSs8Hashable", "hex"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "sharedContext"]
+- ["PSs8Hashable", "sharedContext.storage"]
+- !private ["PSs8Hashable", "tintColor"]
+- !private ["PSs8Hashable", "titleTextAttributes"]
+- !private ["PSs8Hashable", "translucent"]
+- !private ["PSs8Hashable", "whiteColor"]
+- ["PSs8Hashable", "window"]
+- ["PSs8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "count"]
+- !private ["PSs9Indexable", "first"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "count"]
+- !private ["PSs21MutableCollectionType", "first"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "count"]
+- !private ["PSs16MutableIndexable", "first"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "count"]
+- !private ["PSs16MutableSliceable", "first"]
+- !private ["PSo8NSCoding", "appearance"]
+- !private ["PSo8NSCoding", "barTintColor"]
+- !private ["PSo8NSCoding", "deleteObject"]
+- !private ["PSo8NSCoding", "hex"]
+- !private ["PSo8NSCoding", "tintColor"]
+- !private ["PSo8NSCoding", "titleTextAttributes"]
+- !private ["PSo8NSCoding", "translucent"]
+- !private ["PSo8NSCoding", "whiteColor"]
+- !private ["PSo9NSCopying", "hex"]
+- !private ["PSo9NSCopying", "whiteColor"]
+- !private ["PSo9NSLocking", "deleteObject"]
+- !private ["CSo22NSManagedObjectContext", "deleteObject"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CoreDataStackManager"]
+- !private ["CSo8NSObject", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["CSo8NSObject", "GmailClientHelper"]
+- !private ["CSo8NSObject", "NSForegroundColorAttributeName"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "UIApplication"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UINavigationBar"]
+- !private ["CSo8NSObject", "UITabBar"]
+- ["CSo8NSObject", "UIWindow"]
+- !private ["CSo8NSObject", "appearance"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- !private ["CSo8NSObject", "barTintColor"]
+- !private ["CSo8NSObject", "deleteObject"]
+- !private ["CSo8NSObject", "dispatch_async"]
+- !private ["CSo8NSObject", "dispatch_get_global_queue"]
+- !private ["CSo8NSObject", "hex"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "sharedContext"]
+- ["CSo8NSObject", "sharedContext.storage"]
+- !private ["CSo8NSObject", "tintColor"]
+- !private ["CSo8NSObject", "titleTextAttributes"]
+- !private ["CSo8NSObject", "translucent"]
+- !private ["CSo8NSObject", "whiteColor"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "CoreDataStackManager"]
+- !private ["PSo16NSObjectProtocol", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["PSo16NSObjectProtocol", "GmailClientHelper"]
+- !private ["PSo16NSObjectProtocol", "NSForegroundColorAttributeName"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UINavigationBar"]
+- !private ["PSo16NSObjectProtocol", "UITabBar"]
+- !private ["PSo16NSObjectProtocol", "appearance"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- !private ["PSo16NSObjectProtocol", "barTintColor"]
+- !private ["PSo16NSObjectProtocol", "deleteObject"]
+- !private ["PSo16NSObjectProtocol", "dispatch_async"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_global_queue"]
+- !private ["PSo16NSObjectProtocol", "hex"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "sharedContext"]
+- ["PSo16NSObjectProtocol", "sharedContext.storage"]
+- !private ["PSo16NSObjectProtocol", "tintColor"]
+- !private ["PSo16NSObjectProtocol", "titleTextAttributes"]
+- !private ["PSo16NSObjectProtocol", "translucent"]
+- !private ["PSo16NSObjectProtocol", "whiteColor"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "hex"]
+- !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["Sq", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "count"]
+- !private ["PSs30RangeReplaceableCollectionType", "first"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "count"]
+- !private ["PSs12SequenceType", "first"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSo29UIAccessibilityIdentification", "appearance"]
+- !private ["PSo29UIAccessibilityIdentification", "barTintColor"]
+- !private ["PSo29UIAccessibilityIdentification", "tintColor"]
+- !private ["PSo29UIAccessibilityIdentification", "titleTextAttributes"]
+- !private ["PSo29UIAccessibilityIdentification", "translucent"]
+- !private ["PSo12UIAppearance", "appearance"]
+- !private ["PSo12UIAppearance", "barTintColor"]
+- !private ["PSo12UIAppearance", "tintColor"]
+- !private ["PSo12UIAppearance", "titleTextAttributes"]
+- !private ["PSo12UIAppearance", "translucent"]
+- !private ["PSo21UIAppearanceContainer", "appearance"]
+- !private ["PSo21UIAppearanceContainer", "barTintColor"]
+- !private ["PSo21UIAppearanceContainer", "tintColor"]
+- !private ["PSo21UIAppearanceContainer", "titleTextAttributes"]
+- !private ["PSo21UIAppearanceContainer", "translucent"]
+- !private ["PSo21UIApplicationDelegate", "CoreDataStackManager"]
+- !private ["PSo21UIApplicationDelegate", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["PSo21UIApplicationDelegate", "GmailClientHelper"]
+- !private ["PSo21UIApplicationDelegate", "NSForegroundColorAttributeName"]
+- !private ["PSo21UIApplicationDelegate", "UIColor"]
+- !private ["PSo21UIApplicationDelegate", "UINavigationBar"]
+- !private ["PSo21UIApplicationDelegate", "UITabBar"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- !private ["PSo21UIApplicationDelegate", "dispatch_async"]
+- !private ["PSo21UIApplicationDelegate", "dispatch_get_global_queue"]
+- !private ["PSo21UIApplicationDelegate", "sharedContext"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- !private ["PSo16UIBarPositioning", "appearance"]
+- !private ["PSo16UIBarPositioning", "barTintColor"]
+- !private ["PSo16UIBarPositioning", "tintColor"]
+- !private ["PSo16UIBarPositioning", "titleTextAttributes"]
+- !private ["CSo7UIColor", "hex"]
+- !private ["CSo7UIColor", "whiteColor"]
+- !private ["PSo17UICoordinateSpace", "appearance"]
+- !private ["PSo17UICoordinateSpace", "barTintColor"]
+- !private ["PSo17UICoordinateSpace", "tintColor"]
+- !private ["PSo17UICoordinateSpace", "titleTextAttributes"]
+- !private ["PSo17UICoordinateSpace", "translucent"]
+- !private ["PSo13UIDynamicItem", "appearance"]
+- !private ["PSo13UIDynamicItem", "barTintColor"]
+- !private ["PSo13UIDynamicItem", "tintColor"]
+- !private ["PSo13UIDynamicItem", "titleTextAttributes"]
+- !private ["PSo13UIDynamicItem", "translucent"]
+- !private ["CSo15UINavigationBar", "appearance"]
+- !private ["CSo15UINavigationBar", "barTintColor"]
+- !private ["CSo15UINavigationBar", "tintColor"]
+- !private ["CSo15UINavigationBar", "titleTextAttributes"]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "CoreDataStackManager"]
+- !private ["CSo11UIResponder", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["CSo11UIResponder", "GmailClientHelper"]
+- !private ["CSo11UIResponder", "NSForegroundColorAttributeName"]
+- ["CSo11UIResponder", "NSManagedObjectContext"]
+- ["CSo11UIResponder", "NSObject"]
+- ["CSo11UIResponder", "UIApplication"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UINavigationBar"]
+- !private ["CSo11UIResponder", "UITabBar"]
+- ["CSo11UIResponder", "UIWindow"]
+- !private ["CSo11UIResponder", "appearance"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- !private ["CSo11UIResponder", "barTintColor"]
+- !private ["CSo11UIResponder", "dispatch_async"]
+- !private ["CSo11UIResponder", "dispatch_get_global_queue"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "sharedContext"]
+- ["CSo11UIResponder", "sharedContext.storage"]
+- !private ["CSo11UIResponder", "tintColor"]
+- !private ["CSo11UIResponder", "titleTextAttributes"]
+- !private ["CSo11UIResponder", "translucent"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+- !private ["CSo8UITabBar", "appearance"]
+- !private ["CSo8UITabBar", "tintColor"]
+- !private ["CSo8UITabBar", "translucent"]
+- !private ["PSo18UITraitEnvironment", "appearance"]
+- !private ["PSo18UITraitEnvironment", "barTintColor"]
+- !private ["PSo18UITraitEnvironment", "tintColor"]
+- !private ["PSo18UITraitEnvironment", "titleTextAttributes"]
+- !private ["PSo18UITraitEnvironment", "translucent"]
+- !private ["CSo6UIView", "appearance"]
+- !private ["CSo6UIView", "barTintColor"]
+- !private ["CSo6UIView", "tintColor"]
+- !private ["CSo6UIView", "titleTextAttributes"]
+- !private ["CSo6UIView", "translucent"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "count"]
+- !private ["PSs10_ArrayType", "first"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "count"]
+- !private ["PSs24_DestructorSafeContainer", "first"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "count"]
+- !private ["PSs21_ObjectiveCBridgeable", "first"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "appearance"]
+- !private ["PSs12_Reflectable", "barTintColor"]
+- !private ["PSs12_Reflectable", "count"]
+- !private ["PSs12_Reflectable", "first"]
+- !private ["PSs12_Reflectable", "tintColor"]
+- !private ["PSs12_Reflectable", "titleTextAttributes"]
+- !private ["PSs12_Reflectable", "translucent"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- "C7Shiwake11AppDelegate"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "C7Shiwake20CoreDataStackManager"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- !private "C7Shiwake17GmailClientHelper"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo9NSLocking"
+- !private "CSo22NSManagedObjectContext"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Sq"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- "PSo21UIApplicationDelegate"
+- !private "PSo16UIBarPositioning"
+- !private "CSo7UIColor"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "CSo15UINavigationBar"
+- "CSo11UIResponder"
+- !private "CSo8UITabBar"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/Shiwake-Bridging-Header.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-oauth2/GTMOAuth2ViewControllerTouch.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-oauth2/GTMOAuth2Authentication.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-http-fetcher/GTMHTTPFetcher.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmail.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailConstants.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLDefines.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailDraft.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLObject.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLUtilities.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLDateTime.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailHistory.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailLabel.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListDraftsResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListHistoryResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListLabelsResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListMessagesResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListThreadsResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessage.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessagePart.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessagePartBody.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessagePartHeader.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailProfile.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailThread.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLQueryGmail.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLQuery.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLUploadParameters.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLServiceGmail.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLService.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-http-fetcher/GTMHTTPFetcherService.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-http-fetcher/GTMHTTPFetchHistory.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLBatchQuery.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLBatchResult.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLErrorObject.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLFramework.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLJSONParser.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MBProgressHUD/MBProgressHUD.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/DZNEmptyDataSet/UIScrollView+EmptyDataSet.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MGSwipeTableCell/MGSwipeTableCell.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MGSwipeTableCell/MGSwipeButton.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/WebKit.swiftmodule"
+interface-hash: "95e589013728dda25affdd196c001d26"

@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLQueryOrkut.m \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Target\ Support\ Files/Google-API-Client/Google-API-Client-prefix.pch \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLQueryOrkut.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLQuery.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLObject.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/GTLDefines.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Utilities/GTLUtilities.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLDateTime.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLUploadParameters.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutActivity.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutActivityList.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutBadge.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutBadgeList.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutComment.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommentList.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunity.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunityList.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunityMembers.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunityMembersList.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunityMessage.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunityMessageList.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunityPoll.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunityPollComment.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunityPollCommentList.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunityPollList.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunityPollVote.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunityTopic.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCommunityTopicList.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutCounters.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Orkut/Generated/GTLOrkutVisibility.h

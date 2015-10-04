@@ -1,0 +1,175 @@
+PODS:
+  - DZNEmptyDataSet (1.7.1)
+  - Google-API-Client (1.0.422):
+    - Google-API-Client/AdSense (= 1.0.422)
+    - Google-API-Client/Analytics (= 1.0.422)
+    - Google-API-Client/AppState (= 1.0.422)
+    - Google-API-Client/Bigquery (= 1.0.422)
+    - Google-API-Client/Blogger (= 1.0.422)
+    - Google-API-Client/Books (= 1.0.422)
+    - Google-API-Client/Calendar (= 1.0.422)
+    - Google-API-Client/CivicInfo (= 1.0.422)
+    - Google-API-Client/Common (= 1.0.422)
+    - Google-API-Client/Compute (= 1.0.422)
+    - Google-API-Client/Discovery (= 1.0.422)
+    - Google-API-Client/DoubleClickBidManager (= 1.0.422)
+    - Google-API-Client/Drive (= 1.0.422)
+    - Google-API-Client/Gmail (= 1.0.422)
+    - Google-API-Client/Groupssettings (= 1.0.422)
+    - Google-API-Client/Licensing (= 1.0.422)
+    - Google-API-Client/MapsEngine (= 1.0.422)
+    - Google-API-Client/Mirror (= 1.0.422)
+    - Google-API-Client/Orkut (= 1.0.422)
+    - Google-API-Client/Plus (= 1.0.422)
+    - Google-API-Client/PlusDomains (= 1.0.422)
+    - Google-API-Client/Prediction (= 1.0.422)
+    - Google-API-Client/QPXExpress (= 1.0.422)
+    - Google-API-Client/Spectrum (= 1.0.422)
+    - Google-API-Client/SQLAdmin (= 1.0.422)
+    - Google-API-Client/Storage (= 1.0.422)
+    - Google-API-Client/Tasks (= 1.0.422)
+    - Google-API-Client/Urlshortener (= 1.0.422)
+    - Google-API-Client/YouTube (= 1.0.422)
+    - Google-API-Client/YouTubeAnalytics (= 1.0.422)
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/AdSense (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Analytics (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/AppState (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Bigquery (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Blogger (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Books (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Calendar (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/CivicInfo (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Common (1.0.422):
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Compute (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Discovery (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/DoubleClickBidManager (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Drive (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Gmail (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Groupssettings (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Licensing (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/MapsEngine (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Mirror (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Orkut (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Plus (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/PlusDomains (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Prediction (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/QPXExpress (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Spectrum (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/SQLAdmin (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Storage (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Tasks (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/Urlshortener (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/YouTube (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - Google-API-Client/YouTubeAnalytics (1.0.422):
+    - Google-API-Client/Common
+    - gtm-http-fetcher (~> 1.0.141)
+    - gtm-oauth2 (~> 1.0.125)
+  - gtm-http-fetcher (1.0.141)
+  - gtm-oauth2 (1.0.126):
+    - gtm-http-fetcher (~> 1.0.141)
+  - MBProgressHUD (0.9.1)
+  - MGSwipeTableCell (1.5.1)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - Google-API-Client (~> 1.0)
+  - MBProgressHUD (~> 0.9.1)
+  - MGSwipeTableCell (~> 1.5.1)
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 2a398066c2bf5848f7f693fb50954b5064debd12
+  Google-API-Client: cb712cf122f1d7fda966de4c2bc551324573366c
+  gtm-http-fetcher: 6d4617e7d343b6e4c082b777541c334eb6f5d81e
+  gtm-oauth2: 2a18b824e4f8a02df6cfe987beb59ae9d9697f9d
+  MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  MGSwipeTableCell: a51fa670c01f0aa048f12af040acebf315223137
+
+COCOAPODS: 0.38.2

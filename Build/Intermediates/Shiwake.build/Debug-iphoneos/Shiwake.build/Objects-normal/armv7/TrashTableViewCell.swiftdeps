@@ -1,0 +1,198 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TrashTableViewCell"
+provides-nominal:
+- "C7Shiwake18TrashTableViewCell"
+provides-member:
+- ["C7Shiwake18TrashTableViewCell", ""]
+provides-dynamic-lookup:
+- "from"
+- "snippet"
+- "subject"
+depends-top-level:
+- "MGSwipeTableCell"
+- "TrashTableViewCell"
+- "UILabel"
+depends-member:
+- ["PSs9AnyObject", "from"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "snippet"]
+- ["PSs9AnyObject", "subject"]
+- ["PSs9AnyObject", ""]
+- ["PSs11CVarArgType", "from"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "snippet"]
+- ["PSs11CVarArgType", "subject"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "from"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "snippet"]
+- ["PSs23CustomStringConvertible", "subject"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "from"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "snippet"]
+- ["PSs9Equatable", "subject"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "from"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "snippet"]
+- ["PSs8Hashable", "subject"]
+- ["PSs8Hashable", ""]
+- ["CSo16MGSwipeTableCell", "UILabel"]
+- ["CSo16MGSwipeTableCell", "from"]
+- ["CSo16MGSwipeTableCell", "init"]
+- ["CSo16MGSwipeTableCell", "snippet"]
+- ["CSo16MGSwipeTableCell", "subject"]
+- ["CSo16MGSwipeTableCell", ""]
+- ["PSo8NSCoding", "from"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "snippet"]
+- ["PSo8NSCoding", "subject"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "UILabel"]
+- ["CSo8NSObject", "from"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "snippet"]
+- ["CSo8NSObject", "subject"]
+- ["PSo16NSObjectProtocol", "from"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "snippet"]
+- ["PSo16NSObjectProtocol", "subject"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C7Shiwake18TrashTableViewCell", "UILabel"]
+- ["C7Shiwake18TrashTableViewCell", "deinit"]
+- ["C7Shiwake18TrashTableViewCell", "from"]
+- ["C7Shiwake18TrashTableViewCell", "init"]
+- ["C7Shiwake18TrashTableViewCell", "snippet"]
+- ["C7Shiwake18TrashTableViewCell", "subject"]
+- ["PSo29UIAccessibilityIdentification", "from"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "snippet"]
+- ["PSo29UIAccessibilityIdentification", "subject"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "from"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "snippet"]
+- ["PSo12UIAppearance", "subject"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "from"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "snippet"]
+- ["PSo21UIAppearanceContainer", "subject"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "from"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "snippet"]
+- ["PSo17UICoordinateSpace", "subject"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "from"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "snippet"]
+- ["PSo13UIDynamicItem", "subject"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo27UIGestureRecognizerDelegate", "from"]
+- ["PSo27UIGestureRecognizerDelegate", "init"]
+- ["PSo27UIGestureRecognizerDelegate", "snippet"]
+- ["PSo27UIGestureRecognizerDelegate", "subject"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "from"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "snippet"]
+- ["CSo11UIResponder", "subject"]
+- ["CSo15UITableViewCell", "UILabel"]
+- ["CSo15UITableViewCell", "from"]
+- ["CSo15UITableViewCell", "init"]
+- ["CSo15UITableViewCell", "snippet"]
+- ["CSo15UITableViewCell", "subject"]
+- ["PSo18UITraitEnvironment", "from"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "snippet"]
+- ["PSo18UITraitEnvironment", "subject"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "UILabel"]
+- ["CSo6UIView", "from"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "snippet"]
+- ["CSo6UIView", "subject"]
+- ["PSs12_Reflectable", "from"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "snippet"]
+- ["PSs12_Reflectable", "subject"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "CSo16MGSwipeTableCell"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C7Shiwake18TrashTableViewCell"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo27UIGestureRecognizerDelegate"
+- "CSo11UIResponder"
+- "CSo15UITableViewCell"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/Shiwake-Bridging-Header.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-oauth2/GTMOAuth2ViewControllerTouch.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-oauth2/GTMOAuth2Authentication.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-http-fetcher/GTMHTTPFetcher.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmail.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailConstants.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLDefines.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailDraft.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLObject.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLUtilities.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLDateTime.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailHistory.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailLabel.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListDraftsResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListHistoryResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListLabelsResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListMessagesResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListThreadsResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessage.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessagePart.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessagePartBody.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessagePartHeader.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailProfile.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailThread.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLQueryGmail.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLQuery.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLUploadParameters.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLServiceGmail.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLService.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-http-fetcher/GTMHTTPFetcherService.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-http-fetcher/GTMHTTPFetchHistory.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLBatchQuery.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLBatchResult.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLErrorObject.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLFramework.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLJSONParser.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MBProgressHUD/MBProgressHUD.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/DZNEmptyDataSet/UIScrollView+EmptyDataSet.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MGSwipeTableCell/MGSwipeTableCell.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MGSwipeTableCell/MGSwipeButton.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/WebKit.swiftmodule"
+interface-hash: "1727ccdc97bc2cd02b83c7d267b3073f"

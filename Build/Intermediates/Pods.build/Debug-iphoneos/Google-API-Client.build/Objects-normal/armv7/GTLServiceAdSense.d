@@ -1,0 +1,45 @@
+dependencies: \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLServiceAdSense.m \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Target\ Support\ Files/Google-API-Client/Google-API-Client-prefix.pch \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSense.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseConstants.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/GTLDefines.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseAccount.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLObject.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Utilities/GTLUtilities.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLDateTime.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseAccounts.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseAdClient.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseAdClients.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseAdCode.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseAdsenseReportsGenerateResponse.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseAdStyle.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseAdUnit.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseAdUnits.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseAlert.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseAlerts.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseCustomChannel.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseCustomChannels.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseMetadata.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSensePayment.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSensePayments.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseReportingMetadataEntry.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseSavedAdStyle.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseSavedAdStyles.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseSavedReport.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseSavedReports.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseUrlChannel.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLAdSenseUrlChannels.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLQueryAdSense.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLQuery.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLUploadParameters.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/AdSense/Generated/GTLServiceAdSense.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLService.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/gtm-http-fetcher/Source/GTMHTTPFetcher.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/gtm-http-fetcher/Source/GTMHTTPFetcherService.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/gtm-http-fetcher/Source/GTMHTTPFetchHistory.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLBatchQuery.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLBatchResult.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLErrorObject.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Utilities/GTLFramework.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Utilities/GTLJSONParser.h

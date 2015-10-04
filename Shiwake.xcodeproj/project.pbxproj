@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F1CA8C1BC0180D007C4C89 /* OnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F1CA8B1BC0180D007C4C89 /* OnboardViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		00F1FD301BB8A00E000C54C5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00F1FD2E1BB8A00D000C54C5 /* Model.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
+		00F4D77B1BB816D100FA5FC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F4D7791BB816D100FA5FC1 /* Main.storyboard */; };
+		00F4D7801BB816D100FA5FC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F4D77E1BB816D100FA5FC1 /* LaunchScreen.storyboard */; };
+		00F4D7971BB8173000FA5FC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D7881BB8173000FA5FC1 /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D7981BB8173000FA5FC1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D7891BB8173000FA5FC1 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D7991BB8173000FA5FC1 /* GmailClientHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D78A1BB8173000FA5FC1 /* GmailClientHelper.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D79A1BB8173000FA5FC1 /* CoreDataStackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D78B1BB8173000FA5FC1 /* CoreDataStackManager.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D79B1BB8173000FA5FC1 /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D78C1BB8173000FA5FC1 /* MailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D79C1BB8173000FA5FC1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D78D1BB8173000FA5FC1 /* DetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D79D1BB8173000FA5FC1 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D78E1BB8173000FA5FC1 /* DraggableView.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D79E1BB8173000FA5FC1 /* TrashTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D78F1BB8173000FA5FC1 /* TrashTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D79F1BB8173000FA5FC1 /* BookmarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D7901BB8173000FA5FC1 /* BookmarkTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D7A01BB8173000FA5FC1 /* TrashTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D7911BB8173000FA5FC1 /* TrashTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D7A11BB8173000FA5FC1 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D7921BB8173000FA5FC1 /* OverlayView.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D7A21BB8173000FA5FC1 /* Mail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D7931BB8173000FA5FC1 /* Mail.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D7A31BB8173000FA5FC1 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D7941BB8173000FA5FC1 /* Label.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D7A41BB8173000FA5FC1 /* Bookmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D7951BB8173000FA5FC1 /* Bookmark.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D7A51BB8173000FA5FC1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4D7961BB8173000FA5FC1 /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
+		00F4D7A71BB8194F00FA5FC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F4D7A61BB8194F00FA5FC1 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		D3E264D2E917429FC5FB7449 /* libPods-Shiwake.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C64956D843425BE9CC5095B /* libPods-Shiwake.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00F1CA8B1BC0180D007C4C89 /* OnboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardViewController.swift; sourceTree = "<group>"; };
+		00F1FD2F1BB8A00E000C54C5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		00F4D7721BB816D100FA5FC1 /* Shiwake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shiwake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F4D77A1BB816D100FA5FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00F4D77F1BB816D100FA5FC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00F4D7811BB816D100FA5FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F4D7871BB8172E00FA5FC1 /* Shiwake-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shiwake-Bridging-Header.h"; sourceTree = "<group>"; };
+		00F4D7881BB8173000FA5FC1 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00F4D7891BB8173000FA5FC1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		00F4D78A1BB8173000FA5FC1 /* GmailClientHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GmailClientHelper.swift; sourceTree = "<group>"; };
+		00F4D78B1BB8173000FA5FC1 /* CoreDataStackManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStackManager.swift; sourceTree = "<group>"; };
+		00F4D78C1BB8173000FA5FC1 /* MailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
+		00F4D78D1BB8173000FA5FC1 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		00F4D78E1BB8173000FA5FC1 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		00F4D78F1BB8173000FA5FC1 /* TrashTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrashTableViewController.swift; sourceTree = "<group>"; };
+		00F4D7901BB8173000FA5FC1 /* BookmarkTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewController.swift; sourceTree = "<group>"; };
+		00F4D7911BB8173000FA5FC1 /* TrashTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrashTableViewCell.swift; sourceTree = "<group>"; };
+		00F4D7921BB8173000FA5FC1 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		00F4D7931BB8173000FA5FC1 /* Mail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mail.swift; sourceTree = "<group>"; };
+		00F4D7941BB8173000FA5FC1 /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		00F4D7951BB8173000FA5FC1 /* Bookmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bookmark.swift; sourceTree = "<group>"; };
+		00F4D7961BB8173000FA5FC1 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		00F4D7A61BB8194F00FA5FC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1DA4567020D393E6F1FA6E52 /* Pods-Shiwake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shiwake.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shiwake/Pods-Shiwake.release.xcconfig"; sourceTree = "<group>"; };
+		22FF23FB46FF59CCA5913F93 /* Pods-Shiwake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shiwake.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shiwake/Pods-Shiwake.debug.xcconfig"; sourceTree = "<group>"; };
+		7C64956D843425BE9CC5095B /* libPods-Shiwake.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Shiwake.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00F4D76F1BB816D100FA5FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E264D2E917429FC5FB7449 /* libPods-Shiwake.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F4D7691BB816D100FA5FC1 = {
+			isa = PBXGroup;
+			children = (
+				00F4D7741BB816D100FA5FC1 /* Shiwake */,
+				00F4D7731BB816D100FA5FC1 /* Products */,
+				EA49EEE09A1B8D81AF38CA51 /* Pods */,
+				46D9B330CB501407D0A56394 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00F4D7731BB816D100FA5FC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00F4D7721BB816D100FA5FC1 /* Shiwake.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00F4D7741BB816D100FA5FC1 /* Shiwake */ = {
+			isa = PBXGroup;
+			children = (
+				00F4D7881BB8173000FA5FC1 /* AppDelegate.swift */,
+				00F4D7891BB8173000FA5FC1 /* LoginViewController.swift */,
+				00F4D78A1BB8173000FA5FC1 /* GmailClientHelper.swift */,
+				00F4D78B1BB8173000FA5FC1 /* CoreDataStackManager.swift */,
+				00F4D78C1BB8173000FA5FC1 /* MailViewController.swift */,
+				00F4D78D1BB8173000FA5FC1 /* DetailViewController.swift */,
+				00F4D78E1BB8173000FA5FC1 /* DraggableView.swift */,
+				00F4D78F1BB8173000FA5FC1 /* TrashTableViewController.swift */,
+				00F4D7901BB8173000FA5FC1 /* BookmarkTableViewController.swift */,
+				00F4D7911BB8173000FA5FC1 /* TrashTableViewCell.swift */,
+				00F4D7921BB8173000FA5FC1 /* OverlayView.swift */,
+				00F4D7931BB8173000FA5FC1 /* Mail.swift */,
+				00F4D7941BB8173000FA5FC1 /* Label.swift */,
+				00F4D7951BB8173000FA5FC1 /* Bookmark.swift */,
+				00F4D7961BB8173000FA5FC1 /* Extensions.swift */,
+				00F1CA8B1BC0180D007C4C89 /* OnboardViewController.swift */,
+				00F1FD2E1BB8A00D000C54C5 /* Model.xcdatamodeld */,
+				00F4D7791BB816D100FA5FC1 /* Main.storyboard */,
+				00F4D7A61BB8194F00FA5FC1 /* Images.xcassets */,
+				00F4D77E1BB816D100FA5FC1 /* LaunchScreen.storyboard */,
+				00F4D7811BB816D100FA5FC1 /* Info.plist */,
+				00F4D7871BB8172E00FA5FC1 /* Shiwake-Bridging-Header.h */,
+			);
+			path = Shiwake;
+			sourceTree = "<group>";
+		};
+		46D9B330CB501407D0A56394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C64956D843425BE9CC5095B /* libPods-Shiwake.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA49EEE09A1B8D81AF38CA51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22FF23FB46FF59CCA5913F93 /* Pods-Shiwake.debug.xcconfig */,
+				1DA4567020D393E6F1FA6E52 /* Pods-Shiwake.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00F4D7711BB816D100FA5FC1 /* Shiwake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00F4D7841BB816D100FA5FC1 /* Build configuration list for PBXNativeTarget "Shiwake" */;
+			buildPhases = (
+				97C44A64141ABB6B0421D829 /* Check Pods Manifest.lock */,
+				00F4D76E1BB816D100FA5FC1 /* Sources */,
+				00F4D76F1BB816D100FA5FC1 /* Frameworks */,
+				00F4D7701BB816D100FA5FC1 /* Resources */,
+				F6EAE7A46B76331F3C08D5CA /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shiwake;
+			productName = Shiwake;
+			productReference = 00F4D7721BB816D100FA5FC1 /* Shiwake.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00F4D76A1BB816D100FA5FC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Shimmen Nobuyoshi";
+				TargetAttributes = {
+					00F4D7711BB816D100FA5FC1 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 00F4D76D1BB816D100FA5FC1 /* Build configuration list for PBXProject "Shiwake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00F4D7691BB816D100FA5FC1;
+			productRefGroup = 00F4D7731BB816D100FA5FC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00F4D7711BB816D100FA5FC1 /* Shiwake */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00F4D7701BB816D100FA5FC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F4D7801BB816D100FA5FC1 /* LaunchScreen.storyboard in Resources */,
+				00F4D7A71BB8194F00FA5FC1 /* Images.xcassets in Resources */,
+				00F4D77B1BB816D100FA5FC1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		97C44A64141ABB6B0421D829 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EAE7A46B76331F3C08D5CA /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shiwake/Pods-Shiwake-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00F4D76E1BB816D100FA5FC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F4D7A21BB8173000FA5FC1 /* Mail.swift in Sources */,
+				00F4D79D1BB8173000FA5FC1 /* DraggableView.swift in Sources */,
+				00F4D7991BB8173000FA5FC1 /* GmailClientHelper.swift in Sources */,
+				00F4D79E1BB8173000FA5FC1 /* TrashTableViewController.swift in Sources */,
+				00F4D79A1BB8173000FA5FC1 /* CoreDataStackManager.swift in Sources */,
+				00F4D7A41BB8173000FA5FC1 /* Bookmark.swift in Sources */,
+				00F4D7A31BB8173000FA5FC1 /* Label.swift in Sources */,
+				00F1FD301BB8A00E000C54C5 /* Model.xcdatamodeld in Sources */,
+				00F4D7A11BB8173000FA5FC1 /* OverlayView.swift in Sources */,
+				00F4D7A01BB8173000FA5FC1 /* TrashTableViewCell.swift in Sources */,
+				00F4D7981BB8173000FA5FC1 /* LoginViewController.swift in Sources */,
+				00F4D7A51BB8173000FA5FC1 /* Extensions.swift in Sources */,
+				00F4D79C1BB8173000FA5FC1 /* DetailViewController.swift in Sources */,
+				00F4D79F1BB8173000FA5FC1 /* BookmarkTableViewController.swift in Sources */,
+				00F1CA8C1BC0180D007C4C89 /* OnboardViewController.swift in Sources */,
+				00F4D7971BB8173000FA5FC1 /* AppDelegate.swift in Sources */,
+				00F4D79B1BB8173000FA5FC1 /* MailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00F4D7791BB816D100FA5FC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F4D77A1BB816D100FA5FC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00F4D77E1BB816D100FA5FC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00F4D77F1BB816D100FA5FC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00F4D7821BB816D100FA5FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00F4D7831BB816D100FA5FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00F4D7851BB816D100FA5FC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FF23FB46FF59CCA5913F93 /* Pods-Shiwake.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Shiwake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = generalbelly.Shiwake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shiwake/Shiwake-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00F4D7861BB816D100FA5FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA4567020D393E6F1FA6E52 /* Pods-Shiwake.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Shiwake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = generalbelly.Shiwake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Shiwake/Shiwake-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00F4D76D1BB816D100FA5FC1 /* Build configuration list for PBXProject "Shiwake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F4D7821BB816D100FA5FC1 /* Debug */,
+				00F4D7831BB816D100FA5FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00F4D7841BB816D100FA5FC1 /* Build configuration list for PBXNativeTarget "Shiwake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00F4D7851BB816D100FA5FC1 /* Debug */,
+				00F4D7861BB816D100FA5FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00F1FD2E1BB8A00D000C54C5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00F1FD2F1BB8A00E000C54C5 /* Model.xcdatamodel */,
+			);
+			currentVersion = 00F1FD2F1BB8A00E000C54C5 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 00F4D76A1BB816D100FA5FC1 /* Project object */;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8195" systemVersion="14F27" minimumToolsVersion="Xcode 7.0">
+    <entity name="Bookmark" representedClassName="Bookmark" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webpage" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="Label" representedClassName="Label" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="labelId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="mails" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Mail" inverseName="label" inverseEntity="Mail" syncable="YES"/>
+    </entity>
+    <entity name="Mail" representedClassName="Mail" syncable="YES">
+        <attribute name="altMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="from" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="historyId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="message" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mimeType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="snippet" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="subject" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="threadId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="to" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="label" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Label" inverseName="mails" inverseEntity="Label" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Bookmark" positionX="-63" positionY="-18" width="128" height="120"/>
+        <element name="Label" positionX="-54" positionY="-9" width="128" height="90"/>
+        <element name="Mail" positionX="-27" positionY="18" width="128" height="210"/>
+    </elements>
+</model>

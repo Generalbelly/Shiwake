@@ -1,0 +1,37 @@
+dependencies: \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLServicePlusDomains.m \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Target\ Support\ Files/Google-API-Client/Google-API-Client-prefix.pch \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomains.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsConstants.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/GTLDefines.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsAcl.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLObject.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Utilities/GTLUtilities.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLDateTime.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsAclentryResource.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsActivity.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsActivityFeed.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsAudience.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsAudiencesFeed.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsCircle.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsCircleFeed.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsComment.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsCommentFeed.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsMedia.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsPeopleFeed.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsPerson.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsPlace.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLPlusDomainsVideostream.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLQueryPlusDomains.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLQuery.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLUploadParameters.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/PlusDomains/Generated/GTLServicePlusDomains.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLService.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/gtm-http-fetcher/Source/GTMHTTPFetcher.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/gtm-http-fetcher/Source/GTMHTTPFetcherService.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/gtm-http-fetcher/Source/GTMHTTPFetchHistory.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLBatchQuery.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLBatchResult.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLErrorObject.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Utilities/GTLFramework.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Utilities/GTLJSONParser.h
