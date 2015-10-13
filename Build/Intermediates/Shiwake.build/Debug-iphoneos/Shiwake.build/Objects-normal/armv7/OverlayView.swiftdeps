@@ -9,21 +9,21 @@ provides-member:
 - ["O7Shiwake11OverlayMode", ""]
 - ["C7Shiwake11OverlayView", ""]
 provides-dynamic-lookup:
-- "setup"
 - "imageView"
+- "setup"
 depends-top-level:
-- !private "CGRectMake"
-- !private "StringLiteralType"
+- "OverlayMode"
+- !private "UIColor"
 - "=="
 - !private "UIImage"
-- "UIImageView"
-- !private "UIColor"
-- "CGRect"
-- "NSCoder"
 - !private "fatalError"
-- "OverlayView"
-- "OverlayMode"
+- !private "StringLiteralType"
 - "UIView"
+- !private "CGRectMake"
+- "CGRect"
+- "UIImageView"
+- "OverlayView"
+- "NSCoder"
 depends-member:
 - !private ["PSs9AnyObject", "CGRectMake"]
 - !private ["PSs9AnyObject", "OverlayMode"]

@@ -7,18 +7,17 @@ provides-member:
 provides-dynamic-lookup:
 - "hex"
 depends-top-level:
+- !private ">>"
+- !private "UnicodeScalarType"
 - "CGFloat"
+- !private "StringLiteralType"
 - !private "&"
-- !private "UInt32"
 - !private "String"
+- !private "UInt32"
+- !private "NSScanner"
 - !private "/"
 - "UIColor"
 - "NSString"
-- !private "UnicodeScalarType"
-- !private "StringLiteralType"
-- !private "NSScanner"
-- !private ">>"
-- !private "print"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "CGFloat"]
@@ -26,7 +25,6 @@ depends-member:
 - !private ["PSs9AnyObject", "UIColor"]
 - ["PSs9AnyObject", "hex"]
 - !private ["PSs9AnyObject", "init"]
-- !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "scanHexInt"]
 - !private ["PSs9AnyObject", "stringByReplacingOccurrencesOfString"]
 - !private ["PSs9AnyObject", "whiteColor"]
@@ -40,7 +38,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "UIColor"]
 - ["PSs11CVarArgType", "hex"]
 - !private ["PSs11CVarArgType", "init"]
-- !private ["PSs11CVarArgType", "print"]
 - !private ["PSs11CVarArgType", "scanHexInt"]
 - !private ["PSs11CVarArgType", "stringByReplacingOccurrencesOfString"]
 - !private ["PSs11CVarArgType", "whiteColor"]
@@ -51,7 +48,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
 - ["PSs23CustomStringConvertible", "hex"]
 - !private ["PSs23CustomStringConvertible", "init"]
-- !private ["PSs23CustomStringConvertible", "print"]
 - !private ["PSs23CustomStringConvertible", "scanHexInt"]
 - !private ["PSs23CustomStringConvertible", "stringByReplacingOccurrencesOfString"]
 - !private ["PSs23CustomStringConvertible", "whiteColor"]
@@ -61,7 +57,6 @@ depends-member:
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
 - ["PSs9Equatable", "hex"]
 - !private ["PSs9Equatable", "init"]
-- !private ["PSs9Equatable", "print"]
 - !private ["PSs9Equatable", "scanHexInt"]
 - !private ["PSs9Equatable", "stringByReplacingOccurrencesOfString"]
 - !private ["PSs9Equatable", "whiteColor"]
@@ -74,7 +69,6 @@ depends-member:
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
 - ["PSs8Hashable", "hex"]
 - !private ["PSs8Hashable", "init"]
-- !private ["PSs8Hashable", "print"]
 - !private ["PSs8Hashable", "scanHexInt"]
 - !private ["PSs8Hashable", "stringByReplacingOccurrencesOfString"]
 - !private ["PSs8Hashable", "whiteColor"]
@@ -83,14 +77,12 @@ depends-member:
 - !private ["PSo8NSCoding", "NSScanner"]
 - !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "init"]
-- !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "stringByReplacingOccurrencesOfString"]
 - !private ["PSo8NSCoding", "whiteColor"]
 - !private ["PSo9NSCopying", "CGFloat"]
 - !private ["PSo9NSCopying", "NSScanner"]
 - !private ["PSo9NSCopying", "UIColor"]
 - !private ["PSo9NSCopying", "init"]
-- !private ["PSo9NSCopying", "print"]
 - !private ["PSo9NSCopying", "scanHexInt"]
 - !private ["PSo9NSCopying", "stringByReplacingOccurrencesOfString"]
 - !private ["PSo9NSCopying", "whiteColor"]
@@ -103,7 +95,6 @@ depends-member:
 - !private ["CSo8NSObject", "UInt32"]
 - ["CSo8NSObject", "hex"]
 - !private ["CSo8NSObject", "init"]
-- !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "scanHexInt"]
 - !private ["CSo8NSObject", "stringByReplacingOccurrencesOfString"]
 - !private ["CSo8NSObject", "whiteColor"]
@@ -112,7 +103,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - ["PSo16NSObjectProtocol", "hex"]
 - !private ["PSo16NSObjectProtocol", "init"]
-- !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "scanHexInt"]
 - !private ["PSo16NSObjectProtocol", "stringByReplacingOccurrencesOfString"]
 - !private ["PSo16NSObjectProtocol", "whiteColor"]
@@ -122,7 +112,6 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "NSScanner"]
 - !private ["PSo14NSSecureCoding", "UIColor"]
 - !private ["PSo14NSSecureCoding", "init"]
-- !private ["PSo14NSSecureCoding", "print"]
 - !private ["PSo14NSSecureCoding", "stringByReplacingOccurrencesOfString"]
 - !private ["PSo14NSSecureCoding", "whiteColor"]
 - !private ["CSo8NSString", "deinit"]
@@ -138,7 +127,6 @@ depends-member:
 - !private ["CSo7UIColor", "UInt32"]
 - ["CSo7UIColor", "hex"]
 - !private ["CSo7UIColor", "init"]
-- !private ["CSo7UIColor", "print"]
 - !private ["CSo7UIColor", "whiteColor"]
 - !private ["PSs31UnicodeScalarLiteralConvertible", "stringByReplacingOccurrencesOfString"]
 - !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]

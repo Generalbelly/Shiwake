@@ -186,12 +186,14 @@ SWIFT_CLASS("_TtC7Shiwake20DetailViewController")
 @property (nonatomic) UIBarButtonItem * __null_unspecified bookmarkButton;
 @property (nonatomic) UIBarButtonItem * __null_unspecified backButton;
 @property (nonatomic) UIBarButtonItem * __null_unspecified forwardButton;
+@property (nonatomic) UIBarButtonItem * __null_unspecified safariButton;
 @property (nonatomic) BOOL alreadyBookmarked;
 @property (nonatomic) NSManagedObjectContext * __nonnull sharedContext;
 - (void)viewDidLoad;
 - (void)getRidOfStuff;
 - (void)setUpButtons;
 - (void)action:(id __nonnull)sender;
+- (void)safariTapped:(id __nonnull)sender;
 - (void)closeTapped:(id __nonnull)sender;
 - (void)backTapped:(id __nonnull)sender;
 - (void)forwardTapped:(id __nonnull)sender;
@@ -265,9 +267,11 @@ SWIFT_CLASS("_TtC7Shiwake19LoginViewController")
 @property (nonatomic) Label * __nullable label;
 @property (nonatomic) BOOL ShiwakeLabelExist;
 @property (nonatomic) NSManagedObjectContext * __nonnull sharedContext;
-- (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
 @property (nonatomic, readonly) GTMOAuth2ViewControllerTouch * __nonnull createAuthController;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)connectWithGmail;
+- (void)showWalkthrough;
+- (void)walkthroughCloseButtonPressed:(BOOL)didPress;
 - (void)fetchUnreadAndTrash;
 - (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
 - (void)showAlert:(NSString * __nonnull)title message:(NSString * __nonnull)message;
@@ -336,6 +340,27 @@ SWIFT_CLASS("_TtC7Shiwake18MailViewController")
 - (WKWebView * __nullable)webView:(WKWebView * __nonnull)webView createWebViewWithConfiguration:(WKWebViewConfiguration * __nonnull)configuration forNavigationAction:(WKNavigationAction * __nonnull)navigationAction windowFeatures:(WKWindowFeatures * __nonnull)windowFeatures;
 - (void)createCard:(Mail * __nullable)mail bookmark:(Bookmark * __nullable)bookmark;
 - (void)showAlert:(NSString * __nonnull)title message:(NSString * __nonnull)message;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIColor;
+@class UIPageControl;
+
+SWIFT_CLASS("_TtC7Shiwake21OnboardViewController")
+@interface OnboardViewController : UIViewController <UIScrollViewDelegate>
+@property (nonatomic, readonly) UIColor * __nonnull backgroundColor;
+@property (nonatomic, readonly, copy) NSArray<NSDictionary<NSString *, NSString *> *> * __nonnull slides;
+@property (nonatomic, readonly) CGRect screen;
+@property (nonatomic) UIScrollView * __nullable scroll;
+@property (nonatomic) UIPageControl * __nullable dots;
+@property (nonatomic) UIButton * __nullable button;
+- (void)viewDidLoad;
+- (void)tapped:(id __nonnull)sender;
+- (CGRect)getFrame:(CGFloat)iW iH:(CGFloat)iH slide:(NSInteger)slide offset:(CGFloat)offset;
+- (void)swipe:(id __nonnull)sender;
+- (void)scrollViewDidEndDecelerating:(UIScrollView * __nonnull)scrollView;
+- (BOOL)prefersStatusBarHidden;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

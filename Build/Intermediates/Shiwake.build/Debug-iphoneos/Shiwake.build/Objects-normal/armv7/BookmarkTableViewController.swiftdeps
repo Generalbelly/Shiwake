@@ -6,76 +6,75 @@ provides-nominal:
 provides-member:
 - ["C7Shiwake27BookmarkTableViewController", ""]
 provides-dynamic-lookup:
-- "viewDidLoad"
-- "bookmarks"
-- "swipeTableCell"
-- "swipeTableCell"
-- "viewWillAppear"
-- "imageForEmptyDataSet"
-- "fetchAllBookmarks"
-- "prepareForSegue"
-- "tableView"
-- "tableView"
-- "tableView"
-- "titleForEmptyDataSet"
-- "sharedContext"
-- "selectedBookmark"
-- "showAlert"
-- "hud"
 - "setupHUD"
+- "tableView"
+- "tableView"
+- "tableView"
+- "selectedBookmark"
+- "viewWillAppear"
+- "hud"
+- "swipeTableCell"
+- "swipeTableCell"
+- "viewDidLoad"
+- "imageForEmptyDataSet"
+- "prepareForSegue"
 - "descriptionForEmptyDataSet"
+- "sharedContext"
+- "fetchAllBookmarks"
+- "bookmarks"
+- "showAlert"
+- "titleForEmptyDataSet"
 depends-top-level:
-- !private "!="
-- !private "UIColor"
-- "UIStoryboardSegue"
-- !private "NSSortDescriptor"
-- !private "CoreDataStackManager"
+- "NSAttributedString"
+- "UITableView"
 - !private "UIView"
-- !private "NSLineBreakMode"
-- !private "MGSwipeTransition"
-- !private "UIAlertController"
-- !private "UITableViewAutomaticDimension"
-- !private "BooleanLiteralType"
-- "AnyObject"
-- "UIImage"
-- "Bool"
-- "MGSwipeSettings"
-- !private "MailViewController"
-- !private "UITableViewCellSeparatorStyle"
 - !private "NSFetchRequest"
-- !private "Dictionary"
-- "MGSwipeExpansionSettings"
+- "BookmarkTableViewController"
+- !private "!="
+- "MGSwipeDirection"
 - !private "=="
+- !private "UIAlertAction"
+- "MGSwipeTableCell"
+- "UITableViewCell"
+- "UITableViewController"
+- !private "Dictionary"
+- !private "BooleanLiteralType"
+- !private "MailViewController"
+- "Bookmark"
+- "NSIndexPath"
+- "MGSwipeTableCellDelegate"
+- "UIScrollView"
 - !private "NSParagraphStyleAttributeName"
-- !private "NSForegroundColorAttributeName"
-- !private "print"
+- "String"
+- !private "MGSwipeButton"
+- !private "Array"
 - !private "NSMutableParagraphStyle"
 - !private "UITableViewRowAnimation"
-- "MGSwipeTableCell"
-- "String"
-- "UITableView"
-- "MGSwipeDirection"
-- !private "NSError"
-- "Int"
-- "BookmarkTableViewController"
-- !private "NSFontAttributeName"
-- "UITableViewCell"
-- !private "UIAlertAction"
-- !private "NSTextAlignment"
-- "NSAttributedString"
-- "MGSwipeTableCellDelegate"
-- !private "MGSwipeButton"
-- "NSIndexPath"
-- "UIScrollView"
 - "MBProgressHUD"
-- !private "Array"
-- !private "StringLiteralType"
-- "DZNEmptyDataSetDelegate"
-- "Bookmark"
 - !private "UIFont"
-- "DZNEmptyDataSetSource"
-- "UITableViewController"
+- "Int"
+- "AnyObject"
+- !private "MGSwipeTransition"
+- !private "NSTextAlignment"
+- !private "UIAlertController"
+- "UIStoryboardSegue"
+- !private "NSSortDescriptor"
+- !private "NSLineBreakMode"
+- !private "StringLiteralType"
+- !private "UITableViewAutomaticDimension"
+- !private "NSForegroundColorAttributeName"
+- !private "UIColor"
 - "NSManagedObjectContext"
+- "MGSwipeExpansionSettings"
+- "DZNEmptyDataSetDelegate"
+- !private "UITableViewCellSeparatorStyle"
+- "UIImage"
+- "DZNEmptyDataSetSource"
+- "MGSwipeSettings"
+- "Bool"
+- !private "NSFontAttributeName"
+- !private "NSError"
+- !private "CoreDataStackManager"
 depends-member:
 - ["PSs9AnyObject", "Bookmark"]
 - !private ["PSs9AnyObject", "CoreDataStackManager"]
@@ -146,7 +145,6 @@ depends-member:
 - !private ["PSs9AnyObject", "performSegueWithIdentifier"]
 - ["PSs9AnyObject", "prepareForSegue"]
 - !private ["PSs9AnyObject", "presentViewController"]
-- !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "redColor"]
 - !private ["PSs9AnyObject", "reloadData"]
 - !private ["PSs9AnyObject", "reloadEmptyDataSet"]
@@ -271,7 +269,6 @@ depends-member:
 - !private ["C7Shiwake27BookmarkTableViewController", "performSegueWithIdentifier"]
 - ["C7Shiwake27BookmarkTableViewController", "prepareForSegue"]
 - !private ["C7Shiwake27BookmarkTableViewController", "presentViewController"]
-- !private ["C7Shiwake27BookmarkTableViewController", "print"]
 - ["C7Shiwake27BookmarkTableViewController", "selectedBookmark"]
 - ["C7Shiwake27BookmarkTableViewController", "setupHUD"]
 - ["C7Shiwake27BookmarkTableViewController", "sharedContext"]
@@ -361,7 +358,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
 - ["PSs11CVarArgType", "prepareForSegue"]
 - !private ["PSs11CVarArgType", "presentViewController"]
-- !private ["PSs11CVarArgType", "print"]
 - !private ["PSs11CVarArgType", "redColor"]
 - !private ["PSs11CVarArgType", "reloadData"]
 - !private ["PSs11CVarArgType", "reloadEmptyDataSet"]
@@ -500,7 +496,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
 - ["PSs23CustomStringConvertible", "prepareForSegue"]
 - !private ["PSs23CustomStringConvertible", "presentViewController"]
-- !private ["PSs23CustomStringConvertible", "print"]
 - !private ["PSs23CustomStringConvertible", "redColor"]
 - !private ["PSs23CustomStringConvertible", "reloadData"]
 - !private ["PSs23CustomStringConvertible", "reloadEmptyDataSet"]
@@ -579,7 +574,6 @@ depends-member:
 - ["PSo23DZNEmptyDataSetDelegate", "offsetForEmptyDataSet"]
 - !private ["PSo23DZNEmptyDataSetDelegate", "performSegueWithIdentifier"]
 - !private ["PSo23DZNEmptyDataSetDelegate", "presentViewController"]
-- !private ["PSo23DZNEmptyDataSetDelegate", "print"]
 - !private ["PSo23DZNEmptyDataSetDelegate", "selectedBookmark"]
 - !private ["PSo23DZNEmptyDataSetDelegate", "sharedContext"]
 - ["PSo23DZNEmptyDataSetDelegate", "spaceHeightForEmptyDataSet"]
@@ -638,7 +632,6 @@ depends-member:
 - ["PSo21DZNEmptyDataSetSource", "offsetForEmptyDataSet"]
 - !private ["PSo21DZNEmptyDataSetSource", "performSegueWithIdentifier"]
 - !private ["PSo21DZNEmptyDataSetSource", "presentViewController"]
-- !private ["PSo21DZNEmptyDataSetSource", "print"]
 - !private ["PSo21DZNEmptyDataSetSource", "selectedBookmark"]
 - !private ["PSo21DZNEmptyDataSetSource", "sharedContext"]
 - ["PSo21DZNEmptyDataSetSource", "spaceHeightForEmptyDataSet"]
@@ -735,7 +728,6 @@ depends-member:
 - !private ["PSs9Equatable", "performSegueWithIdentifier"]
 - ["PSs9Equatable", "prepareForSegue"]
 - !private ["PSs9Equatable", "presentViewController"]
-- !private ["PSs9Equatable", "print"]
 - !private ["PSs9Equatable", "redColor"]
 - !private ["PSs9Equatable", "reloadData"]
 - !private ["PSs9Equatable", "reloadEmptyDataSet"]
@@ -848,7 +840,6 @@ depends-member:
 - !private ["PSs8Hashable", "performSegueWithIdentifier"]
 - ["PSs8Hashable", "prepareForSegue"]
 - !private ["PSs8Hashable", "presentViewController"]
-- !private ["PSs8Hashable", "print"]
 - !private ["PSs8Hashable", "redColor"]
 - !private ["PSs8Hashable", "reloadData"]
 - !private ["PSs8Hashable", "reloadEmptyDataSet"]
@@ -956,7 +947,6 @@ depends-member:
 - ["PSo24MGSwipeTableCellDelegate", "offsetForEmptyDataSet"]
 - !private ["PSo24MGSwipeTableCellDelegate", "performSegueWithIdentifier"]
 - !private ["PSo24MGSwipeTableCellDelegate", "presentViewController"]
-- !private ["PSo24MGSwipeTableCellDelegate", "print"]
 - !private ["PSo24MGSwipeTableCellDelegate", "selectedBookmark"]
 - !private ["PSo24MGSwipeTableCellDelegate", "sharedContext"]
 - ["PSo24MGSwipeTableCellDelegate", "spaceHeightForEmptyDataSet"]
@@ -1068,7 +1058,6 @@ depends-member:
 - !private ["PSo8NSCoding", "performSegueWithIdentifier"]
 - ["PSo8NSCoding", "prepareForSegue"]
 - !private ["PSo8NSCoding", "presentViewController"]
-- !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "redColor"]
 - !private ["PSo8NSCoding", "reloadData"]
 - !private ["PSo8NSCoding", "reloadEmptyDataSet"]
@@ -1156,7 +1145,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
 - ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
 - !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
-- !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "selectedBookmark"]
 - ["PSo26NSExtensionRequestHandling", "setupHUD"]
 - ["PSo26NSExtensionRequestHandling", "sharedContext"]
@@ -1271,7 +1259,6 @@ depends-member:
 - !private ["CSo8NSObject", "performSegueWithIdentifier"]
 - ["CSo8NSObject", "prepareForSegue"]
 - !private ["CSo8NSObject", "presentViewController"]
-- !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "redColor"]
 - !private ["CSo8NSObject", "reloadData"]
 - !private ["CSo8NSObject", "reloadEmptyDataSet"]
@@ -1368,7 +1355,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
 - ["PSo16NSObjectProtocol", "prepareForSegue"]
 - !private ["PSo16NSObjectProtocol", "presentViewController"]
-- !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "redColor"]
 - !private ["PSo16NSObjectProtocol", "reloadData"]
 - !private ["PSo16NSObjectProtocol", "reloadEmptyDataSet"]
@@ -1555,7 +1541,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
 - ["PSo21UIAppearanceContainer", "prepareForSegue"]
 - !private ["PSo21UIAppearanceContainer", "presentViewController"]
-- !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "reloadData"]
 - !private ["PSo21UIAppearanceContainer", "reloadEmptyDataSet"]
 - !private ["PSo21UIAppearanceContainer", "rowHeight"]
@@ -1635,7 +1620,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
 - ["PSo18UIContentContainer", "prepareForSegue"]
 - !private ["PSo18UIContentContainer", "presentViewController"]
-- !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "selectedBookmark"]
 - ["PSo18UIContentContainer", "setupHUD"]
 - ["PSo18UIContentContainer", "sharedContext"]
@@ -1766,7 +1750,6 @@ depends-member:
 - !private ["CSo11UIResponder", "performSegueWithIdentifier"]
 - ["CSo11UIResponder", "prepareForSegue"]
 - !private ["CSo11UIResponder", "presentViewController"]
-- !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "reloadData"]
 - !private ["CSo11UIResponder", "reloadEmptyDataSet"]
 - !private ["CSo11UIResponder", "rowHeight"]
@@ -1850,7 +1833,6 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "performSegueWithIdentifier"]
 - ["PSo20UIScrollViewDelegate", "prepareForSegue"]
 - !private ["PSo20UIScrollViewDelegate", "presentViewController"]
-- !private ["PSo20UIScrollViewDelegate", "print"]
 - ["PSo20UIScrollViewDelegate", "selectedBookmark"]
 - ["PSo20UIScrollViewDelegate", "setupHUD"]
 - ["PSo20UIScrollViewDelegate", "sharedContext"]
@@ -1918,7 +1900,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
 - ["PSo16UIStateRestoring", "prepareForSegue"]
 - !private ["PSo16UIStateRestoring", "presentViewController"]
-- !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "selectedBookmark"]
 - ["PSo16UIStateRestoring", "setupHUD"]
 - ["PSo16UIStateRestoring", "sharedContext"]
@@ -2016,7 +1997,6 @@ depends-member:
 - !private ["CSo21UITableViewController", "performSegueWithIdentifier"]
 - ["CSo21UITableViewController", "prepareForSegue"]
 - !private ["CSo21UITableViewController", "presentViewController"]
-- !private ["CSo21UITableViewController", "print"]
 - ["CSo21UITableViewController", "selectedBookmark"]
 - ["CSo21UITableViewController", "setupHUD"]
 - ["CSo21UITableViewController", "sharedContext"]
@@ -2082,7 +2062,6 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "performSegueWithIdentifier"]
 - ["PSo21UITableViewDataSource", "prepareForSegue"]
 - !private ["PSo21UITableViewDataSource", "presentViewController"]
-- !private ["PSo21UITableViewDataSource", "print"]
 - ["PSo21UITableViewDataSource", "selectedBookmark"]
 - ["PSo21UITableViewDataSource", "setupHUD"]
 - ["PSo21UITableViewDataSource", "sharedContext"]
@@ -2148,7 +2127,6 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "performSegueWithIdentifier"]
 - ["PSo19UITableViewDelegate", "prepareForSegue"]
 - !private ["PSo19UITableViewDelegate", "presentViewController"]
-- !private ["PSo19UITableViewDelegate", "print"]
 - ["PSo19UITableViewDelegate", "selectedBookmark"]
 - ["PSo19UITableViewDelegate", "setupHUD"]
 - ["PSo19UITableViewDelegate", "sharedContext"]
@@ -2225,7 +2203,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
 - ["PSo18UITraitEnvironment", "prepareForSegue"]
 - !private ["PSo18UITraitEnvironment", "presentViewController"]
-- !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "reloadData"]
 - !private ["PSo18UITraitEnvironment", "reloadEmptyDataSet"]
 - !private ["PSo18UITraitEnvironment", "rowHeight"]
@@ -2334,7 +2311,6 @@ depends-member:
 - !private ["CSo16UIViewController", "performSegueWithIdentifier"]
 - ["CSo16UIViewController", "prepareForSegue"]
 - !private ["CSo16UIViewController", "presentViewController"]
-- !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "selectedBookmark"]
 - ["CSo16UIViewController", "setupHUD"]
 - ["CSo16UIViewController", "sharedContext"]

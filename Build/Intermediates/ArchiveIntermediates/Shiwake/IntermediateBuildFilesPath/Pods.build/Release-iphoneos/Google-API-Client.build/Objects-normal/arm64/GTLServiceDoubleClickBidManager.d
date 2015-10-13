@@ -1,0 +1,38 @@
+dependencies: \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLServiceDoubleClickBidManager.m \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Target\ Support\ Files/Google-API-Client/Google-API-Client-prefix.pch \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManager.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerConstants.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/GTLDefines.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerDownloadLineItemsResponse.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLObject.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Utilities/GTLUtilities.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLDateTime.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerFilterPair.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerListQueriesResponse.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerListReportsResponse.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerParameters.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerQuery.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerQueryMetadata.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerQuerySchedule.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerReport.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerReportFailure.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerReportKey.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerReportMetadata.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerReportStatus.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerRowStatus.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerUploadLineItemsResponse.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLDoubleClickBidManagerUploadStatus.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLQueryDoubleClickBidManager.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLQuery.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLUploadParameters.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/DoubleClickBidManager/Generated/GTLServiceDoubleClickBidManager.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLService.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/gtm-http-fetcher/Source/GTMHTTPFetcher.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/gtm-http-fetcher/Source/GTMHTTPFetcherService.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/gtm-http-fetcher/Source/GTMHTTPFetchHistory.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLBatchQuery.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLBatchResult.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLErrorObject.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Utilities/GTLFramework.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Utilities/GTLJSONParser.h

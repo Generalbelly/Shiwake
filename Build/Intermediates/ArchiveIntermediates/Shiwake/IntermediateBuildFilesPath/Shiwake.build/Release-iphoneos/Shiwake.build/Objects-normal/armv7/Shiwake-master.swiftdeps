@@ -1,0 +1,20 @@
+version: "Apple Swift version 2.0 (swiftlang-700.0.59 clang-700.0.72)"
+options: "07c76cd51ef329016e5f820abd860481"
+build_time: [497546470, 427594000]
+inputs: 
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/CoreDataStackManager.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/BookmarkTableViewController.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/DetailViewController.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/LoginViewController.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/DraggableView.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/Extensions.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/TrashTableViewController.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/TrashTableViewCell.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/GmailClientHelper.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/OverlayView.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/Bookmark.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/Mail.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/Label.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/MailViewController.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/OnboardViewController.swift": [9223372036854775807, 0]
+	"/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/AppDelegate.swift": [9223372036854775807, 0]

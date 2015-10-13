@@ -13,17 +13,17 @@ provides-dynamic-lookup:
 - "imageView"
 depends-top-level:
 - "=="
-- !private "CGRectMake"
-- !private "UIImage"
-- "UIImageView"
-- !private "UIColor"
-- !private "StringLiteralType"
-- "CGRect"
-- !private "fatalError"
-- "OverlayMode"
 - "UIView"
+- !private "StringLiteralType"
+- !private "fatalError"
 - "OverlayView"
 - "NSCoder"
+- "CGRect"
+- !private "UIColor"
+- "UIImageView"
+- "OverlayMode"
+- !private "CGRectMake"
+- !private "UIImage"
 depends-member:
 - !private ["PSs9AnyObject", "CGRectMake"]
 - !private ["PSs9AnyObject", "OverlayMode"]

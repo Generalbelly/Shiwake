@@ -1,0 +1,296 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Mail"
+provides-nominal:
+- "C7Shiwake4Mail"
+provides-member:
+- ["C7Shiwake4Mail", ""]
+provides-dynamic-lookup:
+- "label"
+- "from"
+- "threadId"
+- "altMessage"
+- "message"
+- "snippet"
+- "id"
+- "subject"
+- "historyId"
+- "to"
+- "mimeType"
+depends-top-level:
+- "NSEntityDescription"
+- "NSNumber"
+- "Mail"
+- !private "StringLiteralType"
+- "AnyObject"
+- "NSManagedObject"
+- "NSManagedObjectContext"
+- "String"
+- "Label"
+depends-member:
+- !private ["PSs9AnyObject", "NSEntityDescription"]
+- ["PSs9AnyObject", "altMessage"]
+- !private ["PSs9AnyObject", "entityForName"]
+- ["PSs9AnyObject", "from"]
+- ["PSs9AnyObject", "historyId"]
+- ["PSs9AnyObject", "id"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "label"]
+- ["PSs9AnyObject", "message"]
+- ["PSs9AnyObject", "mimeType"]
+- ["PSs9AnyObject", "snippet"]
+- ["PSs9AnyObject", "subject"]
+- ["PSs9AnyObject", "threadId"]
+- ["PSs9AnyObject", "to"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "NSEntityDescription"]
+- ["PSs11CVarArgType", "altMessage"]
+- !private ["PSs11CVarArgType", "entityForName"]
+- ["PSs11CVarArgType", "from"]
+- ["PSs11CVarArgType", "historyId"]
+- ["PSs11CVarArgType", "id"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "label"]
+- ["PSs11CVarArgType", "message"]
+- ["PSs11CVarArgType", "mimeType"]
+- ["PSs11CVarArgType", "snippet"]
+- ["PSs11CVarArgType", "subject"]
+- ["PSs11CVarArgType", "threadId"]
+- ["PSs11CVarArgType", "to"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "subscript"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "subscript"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "NSEntityDescription"]
+- ["PSs23CustomStringConvertible", "altMessage"]
+- !private ["PSs23CustomStringConvertible", "entityForName"]
+- ["PSs23CustomStringConvertible", "from"]
+- ["PSs23CustomStringConvertible", "historyId"]
+- ["PSs23CustomStringConvertible", "id"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "label"]
+- ["PSs23CustomStringConvertible", "message"]
+- ["PSs23CustomStringConvertible", "mimeType"]
+- ["PSs23CustomStringConvertible", "snippet"]
+- ["PSs23CustomStringConvertible", "subject"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "threadId"]
+- ["PSs23CustomStringConvertible", "to"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "Index"]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["VSs10Dictionary", "subscript"]
+- !private ["PSs28DictionaryLiteralConvertible", "Index"]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs9Equatable", "NSEntityDescription"]
+- ["PSs9Equatable", "altMessage"]
+- !private ["PSs9Equatable", "entityForName"]
+- ["PSs9Equatable", "from"]
+- ["PSs9Equatable", "historyId"]
+- ["PSs9Equatable", "id"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "label"]
+- ["PSs9Equatable", "message"]
+- ["PSs9Equatable", "mimeType"]
+- ["PSs9Equatable", "snippet"]
+- ["PSs9Equatable", "subject"]
+- ["PSs9Equatable", "threadId"]
+- ["PSs9Equatable", "to"]
+- ["PSs9Equatable", ""]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "NSEntityDescription"]
+- ["PSs8Hashable", "altMessage"]
+- !private ["PSs8Hashable", "entityForName"]
+- ["PSs8Hashable", "from"]
+- ["PSs8Hashable", "historyId"]
+- ["PSs8Hashable", "id"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "label"]
+- ["PSs8Hashable", "message"]
+- ["PSs8Hashable", "mimeType"]
+- ["PSs8Hashable", "snippet"]
+- ["PSs8Hashable", "subject"]
+- ["PSs8Hashable", "threadId"]
+- ["PSs8Hashable", "to"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "subscript"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- ["C7Shiwake4Mail", "AnyObject"]
+- ["C7Shiwake4Mail", "Label"]
+- ["C7Shiwake4Mail", "NSEntityDescription"]
+- ["C7Shiwake4Mail", "NSManagedObjectContext"]
+- ["C7Shiwake4Mail", "NSNumber"]
+- ["C7Shiwake4Mail", "String"]
+- ["C7Shiwake4Mail", "altMessage"]
+- ["C7Shiwake4Mail", "deinit"]
+- ["C7Shiwake4Mail", "from"]
+- ["C7Shiwake4Mail", "historyId"]
+- ["C7Shiwake4Mail", "id"]
+- ["C7Shiwake4Mail", "init"]
+- ["C7Shiwake4Mail", "label"]
+- ["C7Shiwake4Mail", "message"]
+- ["C7Shiwake4Mail", "mimeType"]
+- ["C7Shiwake4Mail", "snippet"]
+- ["C7Shiwake4Mail", "subject"]
+- ["C7Shiwake4Mail", "threadId"]
+- ["C7Shiwake4Mail", "to"]
+- !private ["PSo8NSCoding", "entityForName"]
+- !private ["PSo9NSCopying", "entityForName"]
+- !private ["CSo19NSEntityDescription", "entityForName"]
+- !private ["PSo17NSFastEnumeration", "entityForName"]
+- ["CSo15NSManagedObject", "AnyObject"]
+- ["CSo15NSManagedObject", "Label"]
+- ["CSo15NSManagedObject", "NSEntityDescription"]
+- ["CSo15NSManagedObject", "NSManagedObjectContext"]
+- ["CSo15NSManagedObject", "NSNumber"]
+- ["CSo15NSManagedObject", "String"]
+- ["CSo15NSManagedObject", "altMessage"]
+- ["CSo15NSManagedObject", "from"]
+- ["CSo15NSManagedObject", "historyId"]
+- ["CSo15NSManagedObject", "id"]
+- ["CSo15NSManagedObject", "init"]
+- ["CSo15NSManagedObject", "label"]
+- ["CSo15NSManagedObject", "message"]
+- ["CSo15NSManagedObject", "mimeType"]
+- ["CSo15NSManagedObject", "snippet"]
+- ["CSo15NSManagedObject", "subject"]
+- ["CSo15NSManagedObject", "threadId"]
+- ["CSo15NSManagedObject", "to"]
+- ["CSo15NSManagedObject", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Label"]
+- ["CSo8NSObject", "NSEntityDescription"]
+- ["CSo8NSObject", "NSManagedObjectContext"]
+- ["CSo8NSObject", "NSNumber"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "altMessage"]
+- !private ["CSo8NSObject", "entityForName"]
+- ["CSo8NSObject", "from"]
+- ["CSo8NSObject", "historyId"]
+- ["CSo8NSObject", "id"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "label"]
+- ["CSo8NSObject", "message"]
+- ["CSo8NSObject", "mimeType"]
+- ["CSo8NSObject", "snippet"]
+- ["CSo8NSObject", "subject"]
+- ["CSo8NSObject", "threadId"]
+- ["CSo8NSObject", "to"]
+- !private ["PSo16NSObjectProtocol", "NSEntityDescription"]
+- ["PSo16NSObjectProtocol", "altMessage"]
+- !private ["PSo16NSObjectProtocol", "entityForName"]
+- ["PSo16NSObjectProtocol", "from"]
+- ["PSo16NSObjectProtocol", "historyId"]
+- ["PSo16NSObjectProtocol", "id"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "label"]
+- ["PSo16NSObjectProtocol", "message"]
+- ["PSo16NSObjectProtocol", "mimeType"]
+- ["PSo16NSObjectProtocol", "snippet"]
+- ["PSo16NSObjectProtocol", "subject"]
+- ["PSo16NSObjectProtocol", "threadId"]
+- ["PSo16NSObjectProtocol", "to"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["VSs5Slice", "Generator"]
+- !private ["VSs5Slice", "Index"]
+- !private ["VSs5Slice", "SubSequence"]
+- !private ["VSs5Slice", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "subscript"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "subscript"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- "C7Shiwake4Mail"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo19NSEntityDescription"
+- !private "PSo17NSFastEnumeration"
+- "CSo15NSManagedObject"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "PSs12SequenceType"
+- !private "VSs5Slice"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/Shiwake-Bridging-Header.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-oauth2/GTMOAuth2ViewControllerTouch.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-oauth2/GTMOAuth2Authentication.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-http-fetcher/GTMHTTPFetcher.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmail.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailConstants.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLDefines.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailDraft.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLObject.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLUtilities.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLDateTime.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailHistory.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailLabel.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListDraftsResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListHistoryResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListLabelsResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListMessagesResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListThreadsResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessage.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessagePart.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessagePartBody.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessagePartHeader.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailProfile.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailThread.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLQueryGmail.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLQuery.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLUploadParameters.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLServiceGmail.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLService.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-http-fetcher/GTMHTTPFetcherService.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-http-fetcher/GTMHTTPFetchHistory.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLBatchQuery.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLBatchResult.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLErrorObject.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLFramework.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLJSONParser.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MBProgressHUD/MBProgressHUD.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/DZNEmptyDataSet/UIScrollView+EmptyDataSet.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MGSwipeTableCell/MGSwipeTableCell.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MGSwipeTableCell/MGSwipeButton.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/WebKit.swiftmodule"
+interface-hash: "f251ffa33e7da8055cf0a76e73ce0610"

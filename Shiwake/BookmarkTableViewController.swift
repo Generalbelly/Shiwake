@@ -31,7 +31,7 @@ class BookmarkTableViewController: UITableViewController, DZNEmptyDataSetSource,
             results = nil
         }
         if error != nil {
-            print("Error")
+            //print("Error")
         }
         return results as! [Bookmark]
     }

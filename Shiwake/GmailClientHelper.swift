@@ -124,7 +124,7 @@ class GmailClientHelper {
         } else if messagesResponse.payload.body.data != nil {
             message = self.readBodydata(messagesResponse.payload.body.data)
         } else {
-            print("Error", terminator: "")
+            // print("Error", terminator: "")
         }
         let mailToQuery = self.queryForMail(id)
         if mailToQuery.count > 0 {

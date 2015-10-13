@@ -310,6 +310,12 @@ class MailViewController: UIViewController, DraggableViewDelegate, WKNavigationD
                 }
             case "text/html":
                 cardView.htmlString = mail!.message
+                if mail!.altMessage != nil {
+                    cardView.altMessageString = mail!.altMessage
+                    if cardView.htmlString == "" {
+                        cardView.enlarged = true
+                    }
+                }
             default:
                 break
             }

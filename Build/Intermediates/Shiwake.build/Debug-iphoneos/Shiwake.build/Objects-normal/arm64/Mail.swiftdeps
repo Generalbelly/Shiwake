@@ -6,27 +6,27 @@ provides-nominal:
 provides-member:
 - ["C7Shiwake4Mail", ""]
 provides-dynamic-lookup:
-- "altMessage"
-- "from"
-- "threadId"
-- "message"
+- "mimeType"
 - "historyId"
 - "to"
-- "mimeType"
 - "label"
-- "snippet"
 - "id"
+- "snippet"
 - "subject"
+- "message"
+- "altMessage"
+- "threadId"
+- "from"
 depends-top-level:
 - "AnyObject"
-- !private "StringLiteralType"
-- "NSManagedObject"
-- "NSEntityDescription"
-- "NSManagedObjectContext"
-- "NSNumber"
-- "Mail"
 - "Label"
 - "String"
+- "NSManagedObject"
+- "NSManagedObjectContext"
+- "Mail"
+- "NSNumber"
+- "NSEntityDescription"
+- !private "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "NSEntityDescription"]
 - ["PSs9AnyObject", "altMessage"]

@@ -7,25 +7,25 @@ provides-member:
 - ["C7Shiwake20CoreDataStackManager", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "NSBundle"
-- !private "-"
-- !private "NSLocalizedDescriptionKey"
-- "NSPersistentStoreCoordinator"
+- "NSURL"
 - !private "String"
+- "NSPersistentStoreCoordinator"
+- !private "SQLITE_FILE_NAME"
+- !private "NSFileManager"
+- !private "NSLocalizedFailureReasonErrorKey"
 - !private "NSError"
 - !private "AnyObject"
-- !private "NSSQLiteStoreType"
 - "NSManagedObjectModel"
-- !private "NSLog"
-- !private "SQLITE_FILE_NAME"
+- !private "NSLocalizedDescriptionKey"
+- !private "NSBundle"
 - !private "NSUnderlyingErrorKey"
-- !private "abort"
-- "NSURL"
-- !private "NSFileManager"
-- "StringLiteralType"
+- !private "NSSQLiteStoreType"
 - "NSManagedObjectContext"
+- !private "NSLog"
+- !private "-"
 - "CoreDataStackManager"
-- !private "NSLocalizedFailureReasonErrorKey"
+- !private "abort"
+- "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "AnyObject"]
 - ["PSs9AnyObject", "CoreDataStackManager"]

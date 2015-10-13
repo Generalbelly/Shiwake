@@ -86,6 +86,7 @@ class DetailViewController: UIViewController, WKNavigationDelegate, WKUIDelegate
 
         let bookmarkIcon = UIImage(named: "bookmarkButton")
         bookmarkButton = UIBarButtonItem(image: bookmarkIcon, style: .Plain, target: self, action: "bookmarked:")
+        bookmarkButton.enabled = false
 
         actionButton = UIBarButtonItem(barButtonSystemItem: .Action, target: self, action: "action:")
 
@@ -181,7 +182,7 @@ class DetailViewController: UIViewController, WKNavigationDelegate, WKUIDelegate
             results = nil
         }
         if error != nil {
-            print("Error", terminator: "")
+            // print("Error", terminator: "")
         }
         return results as! [Bookmark]
     }
@@ -201,6 +202,7 @@ class DetailViewController: UIViewController, WKNavigationDelegate, WKUIDelegate
         case "loading":
             self.showUp = !self.webView.loading
             self.refresh.enabled = !self.webView.loading
+            self.bookmarkButton.enabled = !self.webView.loading
             self.progressView.hidden = !self.webView.loading
         case "canGoBack":
             self.backButton.enabled = self.webView.canGoBack

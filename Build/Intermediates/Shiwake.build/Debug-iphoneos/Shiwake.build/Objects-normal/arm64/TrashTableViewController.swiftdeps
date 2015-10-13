@@ -9,82 +9,81 @@ provides-member:
 - ["O7Shiwake14LoadingReasons", ""]
 - ["C7Shiwake24TrashTableViewController", ""]
 provides-dynamic-lookup:
-- "newestMailHistoryId"
+- "tableView"
+- "tableView"
+- "tableView"
 - "prepareForSegue"
-- "refresh"
-- "sharedContext"
-- "swipeTableCell"
-- "swipeTableCell"
-- "viewDidLoad"
-- "selectedMail"
-- "label"
-- "hud"
-- "showAlert"
-- "tableView"
-- "tableView"
-- "tableView"
 - "viewWillAppear"
+- "newMailCounter"
+- "viewDidLoad"
+- "newMails"
+- "swipeTableCell"
+- "swipeTableCell"
+- "timesOfScrollingToBottom"
+- "reloadData"
+- "refresh"
 - "oldestMailHistoryId"
 - "setupHUD"
-- "timesOfScrollingToBottom"
+- "label"
 - "mailsCounted"
 - "mailsInTrash"
+- "sharedContext"
+- "newestMailHistoryId"
+- "showAlert"
+- "hud"
 - "hudIsAdded"
-- "reloadData"
-- "newMailCounter"
-- "newMails"
+- "selectedMail"
 depends-top-level:
-- "Label"
-- !private "UITableViewAutomaticDimension"
-- "MBProgressHUD"
-- !private "MGSwipeTransition"
-- !private "print"
-- !private "TrashTableViewCell"
-- !private "CoreDataStackManager"
-- "BooleanLiteralType"
-- "UITableViewController"
-- !private "NSSortDescriptor"
-- !private "dispatch_async"
-- !private ">"
-- !private "<"
-- !private "UIColor"
-- !private "-"
-- !private "MailViewController"
-- "=="
 - "Bool"
-- "UITableView"
-- "UITableViewCell"
-- "MGSwipeDirection"
-- "AnyObject"
-- !private "UIAlertController"
-- "MGSwipeTableCell"
+- !private "MGSwipeTransition"
+- "BooleanLiteralType"
+- !private "TrashTableViewCell"
 - !private "+"
-- "TrashTableViewController"
-- !private "GmailClientHelper"
-- !private "GTLQueryGmail"
-- !private "&&"
-- !private "!="
-- !private "Array"
-- !private "NSArray"
-- "MGSwipeTableCellDelegate"
-- !private "MGSwipeButton"
-- "MGSwipeExpansionSettings"
-- "NSIndexPath"
-- !private "UITableViewCellSeparatorStyle"
-- !private "dispatch_get_main_queue"
-- "String"
-- !private "UITableViewRowAnimation"
-- "Int"
-- "LoadingReasons"
-- "MGSwipeSettings"
-- !private "UIAlertAction"
-- "UIStoryboardSegue"
-- !private "+="
-- !private "*"
 - "NSManagedObjectContext"
-- !private "StringLiteralType"
-- "UIRefreshControl"
+- "TrashTableViewController"
+- !private "NSSortDescriptor"
+- "UITableViewController"
+- !private "UITableViewAutomaticDimension"
 - "Mail"
+- !private ">"
+- !private "-"
+- "Label"
+- "MGSwipeExpansionSettings"
+- "MGSwipeSettings"
+- "AnyObject"
+- !private "CoreDataStackManager"
+- !private "UITableViewCellSeparatorStyle"
+- !private "GmailClientHelper"
+- "UITableViewCell"
+- "=="
+- "UITableView"
+- !private "<"
+- !private "+="
+- !private "UIAlertController"
+- !private "GTLQueryGmail"
+- "UIRefreshControl"
+- !private "!="
+- !private "UITableViewRowAnimation"
+- !private "UIAlertAction"
+- !private "UIColor"
+- !private "NSArray"
+- !private "&&"
+- "LoadingReasons"
+- "MGSwipeDirection"
+- "NSIndexPath"
+- !private "*"
+- "MGSwipeTableCell"
+- !private "MailViewController"
+- "UIStoryboardSegue"
+- "MGSwipeTableCellDelegate"
+- "MBProgressHUD"
+- !private "dispatch_get_main_queue"
+- !private "dispatch_async"
+- "Int"
+- !private "StringLiteralType"
+- !private "MGSwipeButton"
+- !private "Array"
+- "String"
 depends-member:
 - !private ["PSs9AnyObject", "Array"]
 - !private ["PSs9AnyObject", "CoreDataStackManager"]
@@ -144,7 +143,6 @@ depends-member:
 - !private ["PSs9AnyObject", "performSegueWithIdentifier"]
 - ["PSs9AnyObject", "prepareForSegue"]
 - !private ["PSs9AnyObject", "presentViewController"]
-- !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "queryForLabel"]
 - !private ["PSs9AnyObject", "queryForUsersMessagesModify"]
 - ["PSs9AnyObject", "reason"]
@@ -288,7 +286,6 @@ depends-member:
 - !private ["PSs11CVarArgType", "performSegueWithIdentifier"]
 - ["PSs11CVarArgType", "prepareForSegue"]
 - !private ["PSs11CVarArgType", "presentViewController"]
-- !private ["PSs11CVarArgType", "print"]
 - !private ["PSs11CVarArgType", "queryForUsersMessagesModify"]
 - ["PSs11CVarArgType", "reason"]
 - ["PSs11CVarArgType", "refresh"]
@@ -431,7 +428,6 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "performSegueWithIdentifier"]
 - ["PSs23CustomStringConvertible", "prepareForSegue"]
 - !private ["PSs23CustomStringConvertible", "presentViewController"]
-- !private ["PSs23CustomStringConvertible", "print"]
 - !private ["PSs23CustomStringConvertible", "queryForUsersMessagesModify"]
 - ["PSs23CustomStringConvertible", "reason"]
 - ["PSs23CustomStringConvertible", "refresh"]
@@ -537,7 +533,6 @@ depends-member:
 - !private ["PSs9Equatable", "performSegueWithIdentifier"]
 - ["PSs9Equatable", "prepareForSegue"]
 - !private ["PSs9Equatable", "presentViewController"]
-- !private ["PSs9Equatable", "print"]
 - !private ["PSs9Equatable", "queryForUsersMessagesModify"]
 - ["PSs9Equatable", "reason"]
 - ["PSs9Equatable", "refresh"]
@@ -666,7 +661,6 @@ depends-member:
 - !private ["PSs8Hashable", "performSegueWithIdentifier"]
 - ["PSs8Hashable", "prepareForSegue"]
 - !private ["PSs8Hashable", "presentViewController"]
-- !private ["PSs8Hashable", "print"]
 - !private ["PSs8Hashable", "queryForUsersMessagesModify"]
 - ["PSs8Hashable", "reason"]
 - ["PSs8Hashable", "refresh"]
@@ -784,7 +778,6 @@ depends-member:
 - !private ["PSo24MGSwipeTableCellDelegate", "oldestMailHistoryId"]
 - !private ["PSo24MGSwipeTableCellDelegate", "performSegueWithIdentifier"]
 - !private ["PSo24MGSwipeTableCellDelegate", "presentViewController"]
-- !private ["PSo24MGSwipeTableCellDelegate", "print"]
 - !private ["PSo24MGSwipeTableCellDelegate", "reason"]
 - !private ["PSo24MGSwipeTableCellDelegate", "refreshControl"]
 - !private ["PSo24MGSwipeTableCellDelegate", "reloadData"]
@@ -905,7 +898,6 @@ depends-member:
 - !private ["PSo8NSCoding", "performSegueWithIdentifier"]
 - ["PSo8NSCoding", "prepareForSegue"]
 - !private ["PSo8NSCoding", "presentViewController"]
-- !private ["PSo8NSCoding", "print"]
 - ["PSo8NSCoding", "reason"]
 - ["PSo8NSCoding", "refresh"]
 - !private ["PSo8NSCoding", "refreshControl"]
@@ -980,7 +972,6 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "performSegueWithIdentifier"]
 - ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
 - !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
-- !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "reason"]
 - ["PSo26NSExtensionRequestHandling", "refresh"]
 - !private ["PSo26NSExtensionRequestHandling", "refreshControl"]
@@ -1083,7 +1074,6 @@ depends-member:
 - !private ["CSo8NSObject", "performSegueWithIdentifier"]
 - ["CSo8NSObject", "prepareForSegue"]
 - !private ["CSo8NSObject", "presentViewController"]
-- !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "queryForUsersMessagesModify"]
 - ["CSo8NSObject", "reason"]
 - ["CSo8NSObject", "refresh"]
@@ -1167,7 +1157,6 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "performSegueWithIdentifier"]
 - ["PSo16NSObjectProtocol", "prepareForSegue"]
 - !private ["PSo16NSObjectProtocol", "presentViewController"]
-- !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "queryForUsersMessagesModify"]
 - ["PSo16NSObjectProtocol", "reason"]
 - ["PSo16NSObjectProtocol", "refresh"]
@@ -1343,7 +1332,6 @@ depends-member:
 - !private ["C7Shiwake24TrashTableViewController", "performSegueWithIdentifier"]
 - ["C7Shiwake24TrashTableViewController", "prepareForSegue"]
 - !private ["C7Shiwake24TrashTableViewController", "presentViewController"]
-- !private ["C7Shiwake24TrashTableViewController", "print"]
 - ["C7Shiwake24TrashTableViewController", "reason"]
 - ["C7Shiwake24TrashTableViewController", "refresh"]
 - !private ["C7Shiwake24TrashTableViewController", "refreshControl"]
@@ -1446,7 +1434,6 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "performSegueWithIdentifier"]
 - ["PSo21UIAppearanceContainer", "prepareForSegue"]
 - !private ["PSo21UIAppearanceContainer", "presentViewController"]
-- !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "reason"]
 - ["PSo21UIAppearanceContainer", "refresh"]
 - !private ["PSo21UIAppearanceContainer", "refreshControl"]
@@ -1509,7 +1496,6 @@ depends-member:
 - !private ["PSo18UIContentContainer", "performSegueWithIdentifier"]
 - ["PSo18UIContentContainer", "prepareForSegue"]
 - !private ["PSo18UIContentContainer", "presentViewController"]
-- !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "reason"]
 - ["PSo18UIContentContainer", "refresh"]
 - !private ["PSo18UIContentContainer", "refreshControl"]
@@ -1635,7 +1621,6 @@ depends-member:
 - !private ["CSo11UIResponder", "performSegueWithIdentifier"]
 - ["CSo11UIResponder", "prepareForSegue"]
 - !private ["CSo11UIResponder", "presentViewController"]
-- !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "reason"]
 - ["CSo11UIResponder", "refresh"]
 - !private ["CSo11UIResponder", "refreshControl"]
@@ -1701,7 +1686,6 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "performSegueWithIdentifier"]
 - ["PSo20UIScrollViewDelegate", "prepareForSegue"]
 - !private ["PSo20UIScrollViewDelegate", "presentViewController"]
-- !private ["PSo20UIScrollViewDelegate", "print"]
 - ["PSo20UIScrollViewDelegate", "reason"]
 - ["PSo20UIScrollViewDelegate", "refresh"]
 - !private ["PSo20UIScrollViewDelegate", "refreshControl"]
@@ -1755,7 +1739,6 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "performSegueWithIdentifier"]
 - ["PSo16UIStateRestoring", "prepareForSegue"]
 - !private ["PSo16UIStateRestoring", "presentViewController"]
-- !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "reason"]
 - ["PSo16UIStateRestoring", "refresh"]
 - !private ["PSo16UIStateRestoring", "refreshControl"]
@@ -1841,7 +1824,6 @@ depends-member:
 - !private ["CSo21UITableViewController", "performSegueWithIdentifier"]
 - ["CSo21UITableViewController", "prepareForSegue"]
 - !private ["CSo21UITableViewController", "presentViewController"]
-- !private ["CSo21UITableViewController", "print"]
 - ["CSo21UITableViewController", "reason"]
 - ["CSo21UITableViewController", "refresh"]
 - !private ["CSo21UITableViewController", "refreshControl"]
@@ -1894,7 +1876,6 @@ depends-member:
 - !private ["PSo21UITableViewDataSource", "performSegueWithIdentifier"]
 - ["PSo21UITableViewDataSource", "prepareForSegue"]
 - !private ["PSo21UITableViewDataSource", "presentViewController"]
-- !private ["PSo21UITableViewDataSource", "print"]
 - ["PSo21UITableViewDataSource", "reason"]
 - ["PSo21UITableViewDataSource", "refresh"]
 - !private ["PSo21UITableViewDataSource", "refreshControl"]
@@ -1947,7 +1928,6 @@ depends-member:
 - !private ["PSo19UITableViewDelegate", "performSegueWithIdentifier"]
 - ["PSo19UITableViewDelegate", "prepareForSegue"]
 - !private ["PSo19UITableViewDelegate", "presentViewController"]
-- !private ["PSo19UITableViewDelegate", "print"]
 - ["PSo19UITableViewDelegate", "reason"]
 - ["PSo19UITableViewDelegate", "refresh"]
 - !private ["PSo19UITableViewDelegate", "refreshControl"]
@@ -2011,7 +1991,6 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "performSegueWithIdentifier"]
 - ["PSo18UITraitEnvironment", "prepareForSegue"]
 - !private ["PSo18UITraitEnvironment", "presentViewController"]
-- !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "reason"]
 - ["PSo18UITraitEnvironment", "refresh"]
 - !private ["PSo18UITraitEnvironment", "refreshControl"]
@@ -2108,7 +2087,6 @@ depends-member:
 - !private ["CSo16UIViewController", "performSegueWithIdentifier"]
 - ["CSo16UIViewController", "prepareForSegue"]
 - !private ["CSo16UIViewController", "presentViewController"]
-- !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "reason"]
 - ["CSo16UIViewController", "refresh"]
 - !private ["CSo16UIViewController", "refreshControl"]

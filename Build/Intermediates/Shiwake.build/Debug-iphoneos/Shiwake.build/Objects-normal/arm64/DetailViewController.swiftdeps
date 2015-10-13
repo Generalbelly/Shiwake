@@ -7,88 +7,91 @@ provides-member:
 - ["C7Shiwake20DetailViewController", ""]
 provides-dynamic-lookup:
 - "forwardTapped"
-- "backTapped"
-- "refresh"
 - "bookmarked"
-- "backButton"
-- "pageUrl"
-- "viewDidLoad"
-- "closeTapped"
-- "webView"
-- "webView"
-- "webView"
-- "progressView"
-- "setUpButtons"
-- "observeValueForKeyPath"
-- "showAlert"
-- "sharedContext"
-- "alreadyBookmarked"
-- "getRidOfStuff"
 - "bookmarkMessage"
-- "action"
-- "bookmarkButton"
+- "backTapped"
+- "pageUrl"
+- "getRidOfStuff"
+- "webView"
+- "webView"
+- "webView"
 - "scrollViewDidScroll"
-- "showUp"
-- "forwardButton"
+- "showAlert"
+- "backButton"
+- "alreadyBookmarked"
+- "closeTapped"
+- "safariButton"
 - "queryForBookmark"
+- "action"
+- "observeValueForKeyPath"
+- "setUpButtons"
+- "sharedContext"
+- "viewDidLoad"
+- "progressView"
+- "bookmarkButton"
+- "refresh"
 - "actionButton"
+- "forwardButton"
+- "safariTapped"
+- "showUp"
 depends-top-level:
-- "UIScrollView"
-- "WKNavigationAction"
-- !private "Float"
-- "WKWindowFeatures"
-- !private "CoreDataStackManager"
+- !private "NSUUID"
+- !private "!="
+- !private "GTLQueryGmail"
+- !private "UIAlertController"
+- !private "NSDataBase64EncodingOptions"
+- "UIProgressView"
+- !private "NSError"
+- "WKWebViewConfiguration"
+- "UIBarButtonItem"
+- "WKWebView"
 - !private "NSFetchRequest"
-- "Void"
-- !private "Array"
-- !private "GTLGmailMessage"
-- !private "CGRectMake"
-- "BooleanLiteralType"
-- "AnyObject"
+- !private "StringLiteralType"
+- !private "WKUserScriptInjectionTime"
 - "WKNavigationDelegate"
-- !private "dispatch_get_main_queue"
-- !private "UIAlertAction"
-- "UIViewController"
+- !private "UIActivityViewController"
+- "Bookmark"
+- !private ">"
+- "UIScrollViewDelegate"
+- !private "GTLGmailMessage"
+- "DetailViewController"
+- !private "UIColor"
+- !private "GmailClientHelper"
+- !private "NSDate"
+- "String"
+- "WKNavigationAction"
+- !private "UIView"
 - "WKUIDelegate"
 - !private "NSURLRequest"
-- "UnsafeMutablePointer"
-- !private "UIProgressViewStyle"
-- !private "StringLiteralType"
-- "String"
-- !private "UIImage"
-- !private "NSDate"
-- !private "!"
-- !private "Dictionary"
-- !private "WKUserContentController"
-- !private "UIColor"
-- "NSManagedObjectContext"
-- !private "UIActivityViewController"
-- !private "NSError"
-- !private "print"
-- "WKWebViewConfiguration"
-- !private "NSURL"
-- !private "NSPredicate"
-- !private "WKUserScriptInjectionTime"
-- !private "UIView"
-- !private "WKUserScript"
-- !private "!="
-- "WKWebView"
-- "UIBarButtonItem"
-- !private "dispatch_async"
+- "Void"
+- "BooleanLiteralType"
+- !private "UIApplication"
 - !private "NSUTF8StringEncoding"
-- !private "=="
-- !private "~="
-- "UIScrollViewDelegate"
-- !private ">"
+- !private "dispatch_async"
+- !private "NSPredicate"
+- !private "dispatch_get_main_queue"
+- "NSManagedObjectContext"
+- !private "Float"
+- "UIViewController"
+- "AnyObject"
+- "UIScrollView"
 - "WKNavigation"
-- "Bookmark"
-- !private "NSUUID"
-- !private "UIAlertController"
-- "UIProgressView"
-- !private "NSDataBase64EncodingOptions"
-- "DetailViewController"
-- !private "GTLQueryGmail"
-- !private "GmailClientHelper"
+- !private "Array"
+- !private "UnicodeScalarType"
+- "WKWindowFeatures"
+- !private "UIProgressViewStyle"
+- !private "!"
+- !private "WKUserContentController"
+- !private "NSURL"
+- !private "UIImage"
+- !private "WKUserScript"
+- !private "CGRectMake"
+- "UnsafeMutablePointer"
+- !private "~="
+- !private "=="
+- !private "CoreDataStackManager"
+- !private "UIAlertAction"
+- !private "Dictionary"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "Bookmark"]
@@ -110,6 +113,7 @@ depends-member:
 - !private ["PSs9AnyObject", "UIActivityViewController"]
 - !private ["PSs9AnyObject", "UIAlertAction"]
 - !private ["PSs9AnyObject", "UIAlertController"]
+- !private ["PSs9AnyObject", "UIApplication"]
 - !private ["PSs9AnyObject", "UIBarButtonItem"]
 - !private ["PSs9AnyObject", "UIColor"]
 - !private ["PSs9AnyObject", "UIDelegate"]
@@ -147,6 +151,7 @@ depends-member:
 - !private ["PSs9AnyObject", "canGoForward"]
 - !private ["PSs9AnyObject", "center"]
 - ["PSs9AnyObject", "closeTapped"]
+- !private ["PSs9AnyObject", "componentsSeparatedByString"]
 - !private ["PSs9AnyObject", "dataUsingEncoding"]
 - !private ["PSs9AnyObject", "deinit"]
 - !private ["PSs9AnyObject", "delegate"]
@@ -178,11 +183,11 @@ depends-member:
 - !private ["PSs9AnyObject", "navigationDelegate"]
 - !private ["PSs9AnyObject", "navigationItem"]
 - ["PSs9AnyObject", "observeValueForKeyPath"]
+- !private ["PSs9AnyObject", "openURL"]
 - ["PSs9AnyObject", "pageUrl"]
 - !private ["PSs9AnyObject", "panGestureRecognizer"]
 - !private ["PSs9AnyObject", "predicate"]
 - !private ["PSs9AnyObject", "presentViewController"]
-- !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "progressTintColor"]
 - ["PSs9AnyObject", "progressView"]
 - ["PSs9AnyObject", "queryForBookmark"]
@@ -192,6 +197,9 @@ depends-member:
 - ["PSs9AnyObject", "refresh"]
 - !private ["PSs9AnyObject", "removeObserver"]
 - !private ["PSs9AnyObject", "request"]
+- !private ["PSs9AnyObject", "rightBarButtonItem"]
+- ["PSs9AnyObject", "safariButton"]
+- ["PSs9AnyObject", "safariTapped"]
 - !private ["PSs9AnyObject", "saveContext"]
 - !private ["PSs9AnyObject", "scrollView"]
 - ["PSs9AnyObject", "scrollViewDidEndDecelerating"]
@@ -209,6 +217,7 @@ depends-member:
 - !private ["PSs9AnyObject", "service"]
 - !private ["PSs9AnyObject", "setProgress"]
 - ["PSs9AnyObject", "setUpButtons"]
+- !private ["PSs9AnyObject", "sharedApplication"]
 - ["PSs9AnyObject", "sharedContext"]
 - ["PSs9AnyObject", "sharedContext.storage"]
 - !private ["PSs9AnyObject", "sharedInstance"]
@@ -232,9 +241,25 @@ depends-member:
 - !private ["PSs9AnyObject", "whiteColor"]
 - ["PSs9AnyObject", ""]
 - !private ["Sa", "Element"]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "first"]
 - !private ["PSs23ArrayLiteralConvertible", "Element"]
 - !private ["PSs23ArrayLiteralConvertible", "Encoding64CharacterLineLength"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
 - !private ["PSs23ArrayLiteralConvertible", "New"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "first"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
 - !private ["C7Shiwake8Bookmark", "init"]
 - !private ["Sb", "_getBuiltinLogicValue"]
 - !private ["Sb", "deinit"]
@@ -249,10 +274,12 @@ depends-member:
 - !private ["PSs11CVarArgType", "Bookmark"]
 - !private ["PSs11CVarArgType", "CGRectMake"]
 - !private ["PSs11CVarArgType", "CoreDataStackManager"]
+- !private ["PSs11CVarArgType", "Distance"]
 - !private ["PSs11CVarArgType", "Float"]
 - !private ["PSs11CVarArgType", "GTLGmailMessage"]
 - !private ["PSs11CVarArgType", "GTLQueryGmail"]
 - !private ["PSs11CVarArgType", "GmailClientHelper"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
 - !private ["PSs11CVarArgType", "NSDataBase64EncodingOptions"]
 - !private ["PSs11CVarArgType", "NSDate"]
 - !private ["PSs11CVarArgType", "NSFetchRequest"]
@@ -264,6 +291,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "UIActivityViewController"]
 - !private ["PSs11CVarArgType", "UIAlertAction"]
 - !private ["PSs11CVarArgType", "UIAlertController"]
+- !private ["PSs11CVarArgType", "UIApplication"]
 - !private ["PSs11CVarArgType", "UIBarButtonItem"]
 - !private ["PSs11CVarArgType", "UIColor"]
 - !private ["PSs11CVarArgType", "UIDelegate"]
@@ -301,6 +329,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "canGoForward"]
 - !private ["PSs11CVarArgType", "center"]
 - ["PSs11CVarArgType", "closeTapped"]
+- !private ["PSs11CVarArgType", "componentsSeparatedByString"]
 - !private ["PSs11CVarArgType", "dataUsingEncoding"]
 - !private ["PSs11CVarArgType", "delegate"]
 - !private ["PSs11CVarArgType", "dismissViewControllerAnimated"]
@@ -330,11 +359,11 @@ depends-member:
 - !private ["PSs11CVarArgType", "navigationDelegate"]
 - !private ["PSs11CVarArgType", "navigationItem"]
 - ["PSs11CVarArgType", "observeValueForKeyPath"]
+- !private ["PSs11CVarArgType", "openURL"]
 - ["PSs11CVarArgType", "pageUrl"]
 - !private ["PSs11CVarArgType", "panGestureRecognizer"]
 - !private ["PSs11CVarArgType", "predicate"]
 - !private ["PSs11CVarArgType", "presentViewController"]
-- !private ["PSs11CVarArgType", "print"]
 - !private ["PSs11CVarArgType", "progressTintColor"]
 - ["PSs11CVarArgType", "progressView"]
 - ["PSs11CVarArgType", "queryForBookmark"]
@@ -344,6 +373,9 @@ depends-member:
 - ["PSs11CVarArgType", "refresh"]
 - !private ["PSs11CVarArgType", "removeObserver"]
 - !private ["PSs11CVarArgType", "request"]
+- !private ["PSs11CVarArgType", "rightBarButtonItem"]
+- ["PSs11CVarArgType", "safariButton"]
+- ["PSs11CVarArgType", "safariTapped"]
 - !private ["PSs11CVarArgType", "scrollView"]
 - ["PSs11CVarArgType", "scrollViewDidEndDecelerating"]
 - ["PSs11CVarArgType", "scrollViewDidEndDragging"]
@@ -359,6 +391,7 @@ depends-member:
 - ["PSs11CVarArgType", "scrollViewWillEndDragging"]
 - !private ["PSs11CVarArgType", "setProgress"]
 - ["PSs11CVarArgType", "setUpButtons"]
+- !private ["PSs11CVarArgType", "sharedApplication"]
 - ["PSs11CVarArgType", "sharedContext"]
 - ["PSs11CVarArgType", "sharedContext.storage"]
 - ["PSs11CVarArgType", "showAlert"]
@@ -382,27 +415,45 @@ depends-member:
 - ["PSs11CVarArgType", ""]
 - !private ["VSs9Character", "deinit"]
 - !private ["PSs14CollectionType", "Element"]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
 - !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "SubSequence"]
 - !private ["PSs14CollectionType", "Value"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "first"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "componentsSeparatedByString"]
 - !private ["PSs10Comparable", "dataUsingEncoding"]
 - !private ["PSs10Comparable", "init"]
 - !private ["C7Shiwake20CoreDataStackManager", "managedObjectContext"]
 - !private ["C7Shiwake20CoreDataStackManager", "saveContext"]
 - !private ["C7Shiwake20CoreDataStackManager", "sharedInstance"]
 - !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
 - !private ["PSs28CustomDebugStringConvertible", "Key"]
 - !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
 - !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "componentsSeparatedByString"]
 - !private ["PSs28CustomDebugStringConvertible", "dataUsingEncoding"]
+- !private ["PSs28CustomDebugStringConvertible", "first"]
 - !private ["PSs28CustomDebugStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "Bookmark"]
 - !private ["PSs23CustomStringConvertible", "CGRectMake"]
 - !private ["PSs23CustomStringConvertible", "CoreDataStackManager"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
 - !private ["PSs23CustomStringConvertible", "Element"]
 - !private ["PSs23CustomStringConvertible", "Float"]
 - !private ["PSs23CustomStringConvertible", "GTLGmailMessage"]
 - !private ["PSs23CustomStringConvertible", "GTLQueryGmail"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
 - !private ["PSs23CustomStringConvertible", "GmailClientHelper"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
 - !private ["PSs23CustomStringConvertible", "Key"]
 - !private ["PSs23CustomStringConvertible", "NSDataBase64EncodingOptions"]
 - !private ["PSs23CustomStringConvertible", "NSDate"]
@@ -412,9 +463,11 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "NSURLRequest"]
 - !private ["PSs23CustomStringConvertible", "NSUTF8StringEncoding"]
 - !private ["PSs23CustomStringConvertible", "NSUUID"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
 - !private ["PSs23CustomStringConvertible", "UIActivityViewController"]
 - !private ["PSs23CustomStringConvertible", "UIAlertAction"]
 - !private ["PSs23CustomStringConvertible", "UIAlertController"]
+- !private ["PSs23CustomStringConvertible", "UIApplication"]
 - !private ["PSs23CustomStringConvertible", "UIBarButtonItem"]
 - !private ["PSs23CustomStringConvertible", "UIColor"]
 - !private ["PSs23CustomStringConvertible", "UIDelegate"]
@@ -430,6 +483,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "WKUserScriptInjectionTime"]
 - !private ["PSs23CustomStringConvertible", "WKWebView"]
 - !private ["PSs23CustomStringConvertible", "WKWebViewConfiguration"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs23CustomStringConvertible", "absoluteString"]
 - ["PSs23CustomStringConvertible", "action"]
@@ -454,6 +508,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "canGoForward"]
 - !private ["PSs23CustomStringConvertible", "center"]
 - ["PSs23CustomStringConvertible", "closeTapped"]
+- !private ["PSs23CustomStringConvertible", "componentsSeparatedByString"]
 - !private ["PSs23CustomStringConvertible", "dataUsingEncoding"]
 - !private ["PSs23CustomStringConvertible", "delegate"]
 - !private ["PSs23CustomStringConvertible", "dismissViewControllerAnimated"]
@@ -463,6 +518,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "estimatedProgress"]
 - !private ["PSs23CustomStringConvertible", "executeFetchRequest"]
 - !private ["PSs23CustomStringConvertible", "executeQuery"]
+- !private ["PSs23CustomStringConvertible", "first"]
 - ["PSs23CustomStringConvertible", "forwardButton"]
 - ["PSs23CustomStringConvertible", "forwardTapped"]
 - !private ["PSs23CustomStringConvertible", "frame"]
@@ -483,11 +539,11 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "navigationDelegate"]
 - !private ["PSs23CustomStringConvertible", "navigationItem"]
 - ["PSs23CustomStringConvertible", "observeValueForKeyPath"]
+- !private ["PSs23CustomStringConvertible", "openURL"]
 - ["PSs23CustomStringConvertible", "pageUrl"]
 - !private ["PSs23CustomStringConvertible", "panGestureRecognizer"]
 - !private ["PSs23CustomStringConvertible", "predicate"]
 - !private ["PSs23CustomStringConvertible", "presentViewController"]
-- !private ["PSs23CustomStringConvertible", "print"]
 - !private ["PSs23CustomStringConvertible", "progressTintColor"]
 - ["PSs23CustomStringConvertible", "progressView"]
 - ["PSs23CustomStringConvertible", "queryForBookmark"]
@@ -497,6 +553,9 @@ depends-member:
 - ["PSs23CustomStringConvertible", "refresh"]
 - !private ["PSs23CustomStringConvertible", "removeObserver"]
 - !private ["PSs23CustomStringConvertible", "request"]
+- !private ["PSs23CustomStringConvertible", "rightBarButtonItem"]
+- ["PSs23CustomStringConvertible", "safariButton"]
+- ["PSs23CustomStringConvertible", "safariTapped"]
 - !private ["PSs23CustomStringConvertible", "scrollView"]
 - ["PSs23CustomStringConvertible", "scrollViewDidEndDecelerating"]
 - ["PSs23CustomStringConvertible", "scrollViewDidEndDragging"]
@@ -512,6 +571,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "scrollViewWillEndDragging"]
 - !private ["PSs23CustomStringConvertible", "setProgress"]
 - ["PSs23CustomStringConvertible", "setUpButtons"]
+- !private ["PSs23CustomStringConvertible", "sharedApplication"]
 - ["PSs23CustomStringConvertible", "sharedContext"]
 - ["PSs23CustomStringConvertible", "sharedContext.storage"]
 - ["PSs23CustomStringConvertible", "showAlert"]
@@ -555,6 +615,7 @@ depends-member:
 - !private ["C7Shiwake20DetailViewController", "UIActivityViewController"]
 - !private ["C7Shiwake20DetailViewController", "UIAlertAction"]
 - !private ["C7Shiwake20DetailViewController", "UIAlertController"]
+- !private ["C7Shiwake20DetailViewController", "UIApplication"]
 - ["C7Shiwake20DetailViewController", "UIBarButtonItem"]
 - !private ["C7Shiwake20DetailViewController", "UIColor"]
 - !private ["C7Shiwake20DetailViewController", "UIImage"]
@@ -594,10 +655,11 @@ depends-member:
 - ["C7Shiwake20DetailViewController", "observeValueForKeyPath"]
 - ["C7Shiwake20DetailViewController", "pageUrl"]
 - !private ["C7Shiwake20DetailViewController", "presentViewController"]
-- !private ["C7Shiwake20DetailViewController", "print"]
 - ["C7Shiwake20DetailViewController", "progressView"]
 - ["C7Shiwake20DetailViewController", "queryForBookmark"]
 - ["C7Shiwake20DetailViewController", "refresh"]
+- ["C7Shiwake20DetailViewController", "safariButton"]
+- ["C7Shiwake20DetailViewController", "safariTapped"]
 - ["C7Shiwake20DetailViewController", "scrollViewDidEndDecelerating"]
 - ["C7Shiwake20DetailViewController", "scrollViewDidEndDragging"]
 - ["C7Shiwake20DetailViewController", "scrollViewDidEndScrollingAnimation"]
@@ -635,12 +697,14 @@ depends-member:
 - !private ["PSs9Equatable", "CGRectMake"]
 - !private ["PSs9Equatable", "CoreDataStackManager"]
 - !private ["PSs9Equatable", "Default"]
+- !private ["PSs9Equatable", "Distance"]
 - !private ["PSs9Equatable", "Encoding64CharacterLineLength"]
 - !private ["PSs9Equatable", "FlexibleSpace"]
 - !private ["PSs9Equatable", "Float"]
 - !private ["PSs9Equatable", "GTLGmailMessage"]
 - !private ["PSs9Equatable", "GTLQueryGmail"]
 - !private ["PSs9Equatable", "GmailClientHelper"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
 - !private ["PSs9Equatable", "NSDataBase64EncodingOptions"]
 - !private ["PSs9Equatable", "NSDate"]
 - !private ["PSs9Equatable", "NSFetchRequest"]
@@ -655,6 +719,7 @@ depends-member:
 - !private ["PSs9Equatable", "UIActivityViewController"]
 - !private ["PSs9Equatable", "UIAlertAction"]
 - !private ["PSs9Equatable", "UIAlertController"]
+- !private ["PSs9Equatable", "UIApplication"]
 - !private ["PSs9Equatable", "UIBarButtonItem"]
 - !private ["PSs9Equatable", "UIColor"]
 - !private ["PSs9Equatable", "UIDelegate"]
@@ -693,6 +758,7 @@ depends-member:
 - !private ["PSs9Equatable", "canGoForward"]
 - !private ["PSs9Equatable", "center"]
 - ["PSs9Equatable", "closeTapped"]
+- !private ["PSs9Equatable", "componentsSeparatedByString"]
 - !private ["PSs9Equatable", "dataUsingEncoding"]
 - !private ["PSs9Equatable", "delegate"]
 - !private ["PSs9Equatable", "dismissViewControllerAnimated"]
@@ -722,12 +788,12 @@ depends-member:
 - !private ["PSs9Equatable", "navigationDelegate"]
 - !private ["PSs9Equatable", "navigationItem"]
 - ["PSs9Equatable", "observeValueForKeyPath"]
+- !private ["PSs9Equatable", "openURL"]
 - !private ["PSs9Equatable", "origin"]
 - ["PSs9Equatable", "pageUrl"]
 - !private ["PSs9Equatable", "panGestureRecognizer"]
 - !private ["PSs9Equatable", "predicate"]
 - !private ["PSs9Equatable", "presentViewController"]
-- !private ["PSs9Equatable", "print"]
 - !private ["PSs9Equatable", "progressTintColor"]
 - ["PSs9Equatable", "progressView"]
 - ["PSs9Equatable", "queryForBookmark"]
@@ -737,6 +803,9 @@ depends-member:
 - ["PSs9Equatable", "refresh"]
 - !private ["PSs9Equatable", "removeObserver"]
 - !private ["PSs9Equatable", "request"]
+- !private ["PSs9Equatable", "rightBarButtonItem"]
+- ["PSs9Equatable", "safariButton"]
+- ["PSs9Equatable", "safariTapped"]
 - !private ["PSs9Equatable", "scrollView"]
 - ["PSs9Equatable", "scrollViewDidEndDecelerating"]
 - ["PSs9Equatable", "scrollViewDidEndDragging"]
@@ -752,6 +821,7 @@ depends-member:
 - ["PSs9Equatable", "scrollViewWillEndDragging"]
 - !private ["PSs9Equatable", "setProgress"]
 - ["PSs9Equatable", "setUpButtons"]
+- !private ["PSs9Equatable", "sharedApplication"]
 - ["PSs9Equatable", "sharedContext"]
 - ["PSs9Equatable", "sharedContext.storage"]
 - ["PSs9Equatable", "showAlert"]
@@ -778,12 +848,15 @@ depends-member:
 - !private ["PSs9Equatable", "y"]
 - ["PSs9Equatable", ""]
 - !private ["PSs9ErrorType", "localizedDescription"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "componentsSeparatedByString"]
 - !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
 - !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["Sf", "deinit"]
 - !private ["Sf", "init"]
 - !private ["PSs23FloatLiteralConvertible", "init"]
 - !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
 - !private ["CSo15GTLGmailMessage", "identifier"]
 - !private ["CSo15GTLGmailMessage", "init"]
 - !private ["CSo15GTLGmailMessage", "raw"]
@@ -807,6 +880,7 @@ depends-member:
 - !private ["PSo16GTLQueryProtocol", "queryForUsersMessagesModify"]
 - !private ["CSo10GTLService", "executeQuery"]
 - !private ["CSo15GTLServiceGmail", "executeQuery"]
+- !private ["PSs13GeneratorType", "Element"]
 - !private ["C7Shiwake17GmailClientHelper", "ShiwakeId"]
 - !private ["C7Shiwake17GmailClientHelper", "service"]
 - !private ["C7Shiwake17GmailClientHelper", "sharedInstance"]
@@ -817,11 +891,13 @@ depends-member:
 - !private ["PSs8Hashable", "CGRectMake"]
 - !private ["PSs8Hashable", "CoreDataStackManager"]
 - !private ["PSs8Hashable", "Default"]
+- !private ["PSs8Hashable", "Distance"]
 - !private ["PSs8Hashable", "FlexibleSpace"]
 - !private ["PSs8Hashable", "Float"]
 - !private ["PSs8Hashable", "GTLGmailMessage"]
 - !private ["PSs8Hashable", "GTLQueryGmail"]
 - !private ["PSs8Hashable", "GmailClientHelper"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
 - !private ["PSs8Hashable", "NSDataBase64EncodingOptions"]
 - !private ["PSs8Hashable", "NSDate"]
 - !private ["PSs8Hashable", "NSFetchRequest"]
@@ -835,6 +911,7 @@ depends-member:
 - !private ["PSs8Hashable", "UIActivityViewController"]
 - !private ["PSs8Hashable", "UIAlertAction"]
 - !private ["PSs8Hashable", "UIAlertController"]
+- !private ["PSs8Hashable", "UIApplication"]
 - !private ["PSs8Hashable", "UIBarButtonItem"]
 - !private ["PSs8Hashable", "UIColor"]
 - !private ["PSs8Hashable", "UIDelegate"]
@@ -873,6 +950,7 @@ depends-member:
 - !private ["PSs8Hashable", "canGoForward"]
 - !private ["PSs8Hashable", "center"]
 - ["PSs8Hashable", "closeTapped"]
+- !private ["PSs8Hashable", "componentsSeparatedByString"]
 - !private ["PSs8Hashable", "dataUsingEncoding"]
 - !private ["PSs8Hashable", "delegate"]
 - !private ["PSs8Hashable", "dismissViewControllerAnimated"]
@@ -902,11 +980,11 @@ depends-member:
 - !private ["PSs8Hashable", "navigationDelegate"]
 - !private ["PSs8Hashable", "navigationItem"]
 - ["PSs8Hashable", "observeValueForKeyPath"]
+- !private ["PSs8Hashable", "openURL"]
 - ["PSs8Hashable", "pageUrl"]
 - !private ["PSs8Hashable", "panGestureRecognizer"]
 - !private ["PSs8Hashable", "predicate"]
 - !private ["PSs8Hashable", "presentViewController"]
-- !private ["PSs8Hashable", "print"]
 - !private ["PSs8Hashable", "progressTintColor"]
 - ["PSs8Hashable", "progressView"]
 - ["PSs8Hashable", "queryForBookmark"]
@@ -916,6 +994,9 @@ depends-member:
 - ["PSs8Hashable", "refresh"]
 - !private ["PSs8Hashable", "removeObserver"]
 - !private ["PSs8Hashable", "request"]
+- !private ["PSs8Hashable", "rightBarButtonItem"]
+- ["PSs8Hashable", "safariButton"]
+- ["PSs8Hashable", "safariTapped"]
 - !private ["PSs8Hashable", "scrollView"]
 - ["PSs8Hashable", "scrollViewDidEndDecelerating"]
 - ["PSs8Hashable", "scrollViewDidEndDragging"]
@@ -931,6 +1012,7 @@ depends-member:
 - ["PSs8Hashable", "scrollViewWillEndDragging"]
 - !private ["PSs8Hashable", "setProgress"]
 - ["PSs8Hashable", "setUpButtons"]
+- !private ["PSs8Hashable", "sharedApplication"]
 - ["PSs8Hashable", "sharedContext"]
 - ["PSs8Hashable", "sharedContext.storage"]
 - ["PSs8Hashable", "showAlert"]
@@ -954,19 +1036,51 @@ depends-member:
 - ["PSs8Hashable", ""]
 - !private ["SQ", "deinit"]
 - !private ["PSs9Indexable", "Element"]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
 - !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "SubSequence"]
 - !private ["PSs9Indexable", "Value"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "first"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
 - !private ["Si", "deinit"]
 - !private ["VSs5Int16", "deinit"]
 - !private ["VSs5Int32", "deinit"]
 - !private ["VSs5Int64", "deinit"]
 - !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
 - !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "componentsSeparatedByString"]
 - !private ["PSs14MirrorPathType", "dataUsingEncoding"]
 - !private ["PSs14MirrorPathType", "init"]
 - !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "first"]
 - !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "first"]
 - !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "first"]
 - !private ["PSo8NSCoding", "Bookmark"]
 - !private ["PSo8NSCoding", "CGRectMake"]
 - !private ["PSo8NSCoding", "CoreDataStackManager"]
@@ -985,6 +1099,7 @@ depends-member:
 - !private ["PSo8NSCoding", "UIActivityViewController"]
 - !private ["PSo8NSCoding", "UIAlertAction"]
 - !private ["PSo8NSCoding", "UIAlertController"]
+- !private ["PSo8NSCoding", "UIApplication"]
 - !private ["PSo8NSCoding", "UIBarButtonItem"]
 - !private ["PSo8NSCoding", "UIColor"]
 - !private ["PSo8NSCoding", "UIDelegate"]
@@ -1020,6 +1135,7 @@ depends-member:
 - !private ["PSo8NSCoding", "canGoForward"]
 - !private ["PSo8NSCoding", "center"]
 - ["PSo8NSCoding", "closeTapped"]
+- !private ["PSo8NSCoding", "componentsSeparatedByString"]
 - !private ["PSo8NSCoding", "dataUsingEncoding"]
 - !private ["PSo8NSCoding", "delegate"]
 - !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
@@ -1050,12 +1166,14 @@ depends-member:
 - !private ["PSo8NSCoding", "panGestureRecognizer"]
 - !private ["PSo8NSCoding", "predicate"]
 - !private ["PSo8NSCoding", "presentViewController"]
-- !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "progressTintColor"]
 - ["PSo8NSCoding", "progressView"]
 - ["PSo8NSCoding", "queryForBookmark"]
 - ["PSo8NSCoding", "refresh"]
 - !private ["PSo8NSCoding", "removeObserver"]
+- !private ["PSo8NSCoding", "rightBarButtonItem"]
+- ["PSo8NSCoding", "safariButton"]
+- ["PSo8NSCoding", "safariTapped"]
 - !private ["PSo8NSCoding", "scrollView"]
 - ["PSo8NSCoding", "scrollViewDidEndDecelerating"]
 - ["PSo8NSCoding", "scrollViewDidEndDragging"]
@@ -1094,6 +1212,7 @@ depends-member:
 - !private ["PSo9NSCopying", "absoluteString"]
 - !private ["PSo9NSCopying", "addLabelIds"]
 - !private ["PSo9NSCopying", "base64EncodedStringWithOptions"]
+- !private ["PSo9NSCopying", "componentsSeparatedByString"]
 - !private ["PSo9NSCopying", "dataUsingEncoding"]
 - !private ["PSo9NSCopying", "hex"]
 - !private ["PSo9NSCopying", "identifier"]
@@ -1129,6 +1248,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "UIActivityViewController"]
 - !private ["PSo26NSExtensionRequestHandling", "UIAlertAction"]
 - !private ["PSo26NSExtensionRequestHandling", "UIAlertController"]
+- !private ["PSo26NSExtensionRequestHandling", "UIApplication"]
 - !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItem"]
 - !private ["PSo26NSExtensionRequestHandling", "UIColor"]
 - !private ["PSo26NSExtensionRequestHandling", "UIImage"]
@@ -1163,10 +1283,11 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "observeValueForKeyPath"]
 - ["PSo26NSExtensionRequestHandling", "pageUrl"]
 - !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
-- !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "progressView"]
 - ["PSo26NSExtensionRequestHandling", "queryForBookmark"]
 - ["PSo26NSExtensionRequestHandling", "refresh"]
+- ["PSo26NSExtensionRequestHandling", "safariButton"]
+- ["PSo26NSExtensionRequestHandling", "safariTapped"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDecelerating"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDragging"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndScrollingAnimation"]
@@ -1202,6 +1323,7 @@ depends-member:
 - !private ["CSo15NSManagedObject", "init"]
 - !private ["CSo22NSManagedObjectContext", "executeFetchRequest"]
 - !private ["PSo16NSMutableCopying", "base64EncodedStringWithOptions"]
+- !private ["PSo16NSMutableCopying", "componentsSeparatedByString"]
 - !private ["PSo16NSMutableCopying", "dataUsingEncoding"]
 - !private ["PSo16NSMutableCopying", "init"]
 - ["CSo8NSObject", "AnyObject"]
@@ -1226,6 +1348,7 @@ depends-member:
 - !private ["CSo8NSObject", "UIActivityViewController"]
 - !private ["CSo8NSObject", "UIAlertAction"]
 - !private ["CSo8NSObject", "UIAlertController"]
+- !private ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIBarButtonItem"]
 - !private ["CSo8NSObject", "UIColor"]
 - !private ["CSo8NSObject", "UIDelegate"]
@@ -1269,6 +1392,7 @@ depends-member:
 - !private ["CSo8NSObject", "canGoForward"]
 - !private ["CSo8NSObject", "center"]
 - ["CSo8NSObject", "closeTapped"]
+- !private ["CSo8NSObject", "componentsSeparatedByString"]
 - !private ["CSo8NSObject", "dataUsingEncoding"]
 - !private ["CSo8NSObject", "deinit"]
 - !private ["CSo8NSObject", "delegate"]
@@ -1299,11 +1423,11 @@ depends-member:
 - !private ["CSo8NSObject", "navigationDelegate"]
 - !private ["CSo8NSObject", "navigationItem"]
 - ["CSo8NSObject", "observeValueForKeyPath"]
+- !private ["CSo8NSObject", "openURL"]
 - ["CSo8NSObject", "pageUrl"]
 - !private ["CSo8NSObject", "panGestureRecognizer"]
 - !private ["CSo8NSObject", "predicate"]
 - !private ["CSo8NSObject", "presentViewController"]
-- !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "progressTintColor"]
 - ["CSo8NSObject", "progressView"]
 - ["CSo8NSObject", "queryForBookmark"]
@@ -1313,6 +1437,9 @@ depends-member:
 - ["CSo8NSObject", "refresh"]
 - !private ["CSo8NSObject", "removeObserver"]
 - !private ["CSo8NSObject", "request"]
+- !private ["CSo8NSObject", "rightBarButtonItem"]
+- ["CSo8NSObject", "safariButton"]
+- ["CSo8NSObject", "safariTapped"]
 - !private ["CSo8NSObject", "scrollView"]
 - ["CSo8NSObject", "scrollViewDidEndDecelerating"]
 - ["CSo8NSObject", "scrollViewDidEndDragging"]
@@ -1328,6 +1455,7 @@ depends-member:
 - ["CSo8NSObject", "scrollViewWillEndDragging"]
 - !private ["CSo8NSObject", "setProgress"]
 - ["CSo8NSObject", "setUpButtons"]
+- !private ["CSo8NSObject", "sharedApplication"]
 - ["CSo8NSObject", "sharedContext"]
 - ["CSo8NSObject", "sharedContext.storage"]
 - ["CSo8NSObject", "showAlert"]
@@ -1366,6 +1494,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "UIActivityViewController"]
 - !private ["PSo16NSObjectProtocol", "UIAlertAction"]
 - !private ["PSo16NSObjectProtocol", "UIAlertController"]
+- !private ["PSo16NSObjectProtocol", "UIApplication"]
 - !private ["PSo16NSObjectProtocol", "UIBarButtonItem"]
 - !private ["PSo16NSObjectProtocol", "UIColor"]
 - !private ["PSo16NSObjectProtocol", "UIDelegate"]
@@ -1403,6 +1532,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "canGoForward"]
 - !private ["PSo16NSObjectProtocol", "center"]
 - ["PSo16NSObjectProtocol", "closeTapped"]
+- !private ["PSo16NSObjectProtocol", "componentsSeparatedByString"]
 - !private ["PSo16NSObjectProtocol", "dataUsingEncoding"]
 - !private ["PSo16NSObjectProtocol", "delegate"]
 - !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
@@ -1432,11 +1562,11 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "navigationDelegate"]
 - !private ["PSo16NSObjectProtocol", "navigationItem"]
 - ["PSo16NSObjectProtocol", "observeValueForKeyPath"]
+- !private ["PSo16NSObjectProtocol", "openURL"]
 - ["PSo16NSObjectProtocol", "pageUrl"]
 - !private ["PSo16NSObjectProtocol", "panGestureRecognizer"]
 - !private ["PSo16NSObjectProtocol", "predicate"]
 - !private ["PSo16NSObjectProtocol", "presentViewController"]
-- !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "progressTintColor"]
 - ["PSo16NSObjectProtocol", "progressView"]
 - ["PSo16NSObjectProtocol", "queryForBookmark"]
@@ -1446,6 +1576,9 @@ depends-member:
 - ["PSo16NSObjectProtocol", "refresh"]
 - !private ["PSo16NSObjectProtocol", "removeObserver"]
 - !private ["PSo16NSObjectProtocol", "request"]
+- !private ["PSo16NSObjectProtocol", "rightBarButtonItem"]
+- ["PSo16NSObjectProtocol", "safariButton"]
+- ["PSo16NSObjectProtocol", "safariTapped"]
 - !private ["PSo16NSObjectProtocol", "scrollView"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndDecelerating"]
 - ["PSo16NSObjectProtocol", "scrollViewDidEndDragging"]
@@ -1461,6 +1594,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "scrollViewWillEndDragging"]
 - !private ["PSo16NSObjectProtocol", "setProgress"]
 - ["PSo16NSObjectProtocol", "setUpButtons"]
+- !private ["PSo16NSObjectProtocol", "sharedApplication"]
 - ["PSo16NSObjectProtocol", "sharedContext"]
 - ["PSo16NSObjectProtocol", "sharedContext.storage"]
 - ["PSo16NSObjectProtocol", "showAlert"]
@@ -1488,11 +1622,13 @@ depends-member:
 - !private ["PSo14NSSecureCoding", "UUIDString"]
 - !private ["PSo14NSSecureCoding", "absoluteString"]
 - !private ["PSo14NSSecureCoding", "base64EncodedStringWithOptions"]
+- !private ["PSo14NSSecureCoding", "componentsSeparatedByString"]
 - !private ["PSo14NSSecureCoding", "dataUsingEncoding"]
 - !private ["PSo14NSSecureCoding", "hex"]
 - !private ["PSo14NSSecureCoding", "init"]
 - !private ["PSo14NSSecureCoding", "localizedDescription"]
 - !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["CSo8NSString", "componentsSeparatedByString"]
 - !private ["CSo8NSString", "dataUsingEncoding"]
 - !private ["CSo8NSString", "deinit"]
 - !private ["CSo8NSString", "init"]
@@ -1506,10 +1642,18 @@ depends-member:
 - !private ["PSs13OptionSetType", "New"]
 - !private ["Sq", "Some"]
 - !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "componentsSeparatedByString"]
 - !private ["PSs16OutputStreamType", "dataUsingEncoding"]
 - !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
 - !private ["VSs5Range", "deinit"]
 - !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "first"]
 - !private ["PSs16RawRepresentable", "Action"]
 - !private ["PSs16RawRepresentable", "Alert"]
 - !private ["PSs16RawRepresentable", "AtDocumentEnd"]
@@ -1521,19 +1665,34 @@ depends-member:
 - !private ["PSs16RawRepresentable", "Refresh"]
 - !private ["V10ObjectiveC8Selector", "deinit"]
 - !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
 - !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "SubSequence"]
 - !private ["PSs12SequenceType", "Value"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "first"]
 - !private ["PSs14SetAlgebraType", "Encoding64CharacterLineLength"]
 - !private ["PSs14SetAlgebraType", "New"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
 - !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Streamable", "componentsSeparatedByString"]
 - !private ["PSs10Streamable", "dataUsingEncoding"]
 - !private ["PSs10Streamable", "init"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
 - !private ["PSs10Strideable", "init"]
+- !private ["SS", "componentsSeparatedByString"]
 - !private ["SS", "dataUsingEncoding"]
 - !private ["SS", "deinit"]
 - !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "componentsSeparatedByString"]
 - !private ["PSs30StringInterpolationConvertible", "dataUsingEncoding"]
 - !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "componentsSeparatedByString"]
 - !private ["PSs24StringLiteralConvertible", "dataUsingEncoding"]
 - !private ["PSs24StringLiteralConvertible", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "UIDelegate"]
@@ -1623,6 +1782,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "UIActivityViewController"]
 - !private ["PSo21UIAppearanceContainer", "UIAlertAction"]
 - !private ["PSo21UIAppearanceContainer", "UIAlertController"]
+- !private ["PSo21UIAppearanceContainer", "UIApplication"]
 - !private ["PSo21UIAppearanceContainer", "UIBarButtonItem"]
 - !private ["PSo21UIAppearanceContainer", "UIColor"]
 - !private ["PSo21UIAppearanceContainer", "UIDelegate"]
@@ -1678,12 +1838,13 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "pageUrl"]
 - !private ["PSo21UIAppearanceContainer", "panGestureRecognizer"]
 - !private ["PSo21UIAppearanceContainer", "presentViewController"]
-- !private ["PSo21UIAppearanceContainer", "print"]
 - !private ["PSo21UIAppearanceContainer", "progressTintColor"]
 - ["PSo21UIAppearanceContainer", "progressView"]
 - ["PSo21UIAppearanceContainer", "queryForBookmark"]
 - ["PSo21UIAppearanceContainer", "refresh"]
 - !private ["PSo21UIAppearanceContainer", "removeObserver"]
+- ["PSo21UIAppearanceContainer", "safariButton"]
+- ["PSo21UIAppearanceContainer", "safariTapped"]
 - !private ["PSo21UIAppearanceContainer", "scrollView"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndDecelerating"]
 - ["PSo21UIAppearanceContainer", "scrollViewDidEndDragging"]
@@ -1717,6 +1878,8 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "webViewDidClose"]
 - ["PSo21UIAppearanceContainer", "webViewWebContentProcessDidTerminate"]
 - ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo13UIApplication", "openURL"]
+- !private ["CSo13UIApplication", "sharedApplication"]
 - !private ["CSo15UIBarButtonItem", "enabled"]
 - !private ["CSo15UIBarButtonItem", "init"]
 - !private ["OSC20UIBarButtonItemStyle", "Plain"]
@@ -1749,6 +1912,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "UIActivityViewController"]
 - !private ["PSo18UIContentContainer", "UIAlertAction"]
 - !private ["PSo18UIContentContainer", "UIAlertController"]
+- !private ["PSo18UIContentContainer", "UIApplication"]
 - !private ["PSo18UIContentContainer", "UIBarButtonItem"]
 - !private ["PSo18UIContentContainer", "UIColor"]
 - !private ["PSo18UIContentContainer", "UIImage"]
@@ -1783,10 +1947,11 @@ depends-member:
 - ["PSo18UIContentContainer", "observeValueForKeyPath"]
 - ["PSo18UIContentContainer", "pageUrl"]
 - !private ["PSo18UIContentContainer", "presentViewController"]
-- !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "progressView"]
 - ["PSo18UIContentContainer", "queryForBookmark"]
 - ["PSo18UIContentContainer", "refresh"]
+- ["PSo18UIContentContainer", "safariButton"]
+- ["PSo18UIContentContainer", "safariTapped"]
 - ["PSo18UIContentContainer", "scrollViewDidEndDecelerating"]
 - ["PSo18UIContentContainer", "scrollViewDidEndDragging"]
 - ["PSo18UIContentContainer", "scrollViewDidEndScrollingAnimation"]
@@ -1883,6 +2048,7 @@ depends-member:
 - !private ["CSo22UINavigationController", "toolbar"]
 - !private ["CSo22UINavigationController", "toolbarHidden"]
 - !private ["CSo16UINavigationItem", "leftBarButtonItem"]
+- !private ["CSo16UINavigationItem", "rightBarButtonItem"]
 - !private ["CSo22UIPanGestureRecognizer", "translationInView"]
 - !private ["CSo14UIProgressView", "center"]
 - !private ["CSo14UIProgressView", "frame"]
@@ -1914,6 +2080,7 @@ depends-member:
 - !private ["CSo11UIResponder", "UIActivityViewController"]
 - !private ["CSo11UIResponder", "UIAlertAction"]
 - !private ["CSo11UIResponder", "UIAlertController"]
+- !private ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIBarButtonItem"]
 - !private ["CSo11UIResponder", "UIColor"]
 - !private ["CSo11UIResponder", "UIDelegate"]
@@ -1972,15 +2139,17 @@ depends-member:
 - !private ["CSo11UIResponder", "navigationDelegate"]
 - !private ["CSo11UIResponder", "navigationItem"]
 - ["CSo11UIResponder", "observeValueForKeyPath"]
+- !private ["CSo11UIResponder", "openURL"]
 - ["CSo11UIResponder", "pageUrl"]
 - !private ["CSo11UIResponder", "panGestureRecognizer"]
 - !private ["CSo11UIResponder", "presentViewController"]
-- !private ["CSo11UIResponder", "print"]
 - !private ["CSo11UIResponder", "progressTintColor"]
 - ["CSo11UIResponder", "progressView"]
 - ["CSo11UIResponder", "queryForBookmark"]
 - ["CSo11UIResponder", "refresh"]
 - !private ["CSo11UIResponder", "removeObserver"]
+- ["CSo11UIResponder", "safariButton"]
+- ["CSo11UIResponder", "safariTapped"]
 - !private ["CSo11UIResponder", "scrollView"]
 - ["CSo11UIResponder", "scrollViewDidEndDecelerating"]
 - ["CSo11UIResponder", "scrollViewDidEndDragging"]
@@ -1996,6 +2165,7 @@ depends-member:
 - ["CSo11UIResponder", "scrollViewWillEndDragging"]
 - !private ["CSo11UIResponder", "setProgress"]
 - ["CSo11UIResponder", "setUpButtons"]
+- !private ["CSo11UIResponder", "sharedApplication"]
 - ["CSo11UIResponder", "sharedContext"]
 - ["CSo11UIResponder", "sharedContext.storage"]
 - ["CSo11UIResponder", "showAlert"]
@@ -2033,6 +2203,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "UIActivityViewController"]
 - !private ["PSo20UIScrollViewDelegate", "UIAlertAction"]
 - !private ["PSo20UIScrollViewDelegate", "UIAlertController"]
+- !private ["PSo20UIScrollViewDelegate", "UIApplication"]
 - !private ["PSo20UIScrollViewDelegate", "UIBarButtonItem"]
 - !private ["PSo20UIScrollViewDelegate", "UIColor"]
 - !private ["PSo20UIScrollViewDelegate", "UIImage"]
@@ -2057,9 +2228,9 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "navigationItem"]
 - !private ["PSo20UIScrollViewDelegate", "pageUrl"]
 - !private ["PSo20UIScrollViewDelegate", "presentViewController"]
-- !private ["PSo20UIScrollViewDelegate", "print"]
 - !private ["PSo20UIScrollViewDelegate", "progressView"]
 - !private ["PSo20UIScrollViewDelegate", "refresh"]
+- !private ["PSo20UIScrollViewDelegate", "safariButton"]
 - ["PSo20UIScrollViewDelegate", "scrollViewDidEndDecelerating"]
 - ["PSo20UIScrollViewDelegate", "scrollViewDidEndDragging"]
 - ["PSo20UIScrollViewDelegate", "scrollViewDidEndScrollingAnimation"]
@@ -2102,6 +2273,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "UIActivityViewController"]
 - !private ["PSo16UIStateRestoring", "UIAlertAction"]
 - !private ["PSo16UIStateRestoring", "UIAlertController"]
+- !private ["PSo16UIStateRestoring", "UIApplication"]
 - !private ["PSo16UIStateRestoring", "UIBarButtonItem"]
 - !private ["PSo16UIStateRestoring", "UIColor"]
 - !private ["PSo16UIStateRestoring", "UIImage"]
@@ -2136,10 +2308,11 @@ depends-member:
 - ["PSo16UIStateRestoring", "observeValueForKeyPath"]
 - ["PSo16UIStateRestoring", "pageUrl"]
 - !private ["PSo16UIStateRestoring", "presentViewController"]
-- !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "progressView"]
 - ["PSo16UIStateRestoring", "queryForBookmark"]
 - ["PSo16UIStateRestoring", "refresh"]
+- ["PSo16UIStateRestoring", "safariButton"]
+- ["PSo16UIStateRestoring", "safariTapped"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndDecelerating"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndDragging"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndScrollingAnimation"]
@@ -2189,6 +2362,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "UIActivityViewController"]
 - !private ["PSo18UITraitEnvironment", "UIAlertAction"]
 - !private ["PSo18UITraitEnvironment", "UIAlertController"]
+- !private ["PSo18UITraitEnvironment", "UIApplication"]
 - !private ["PSo18UITraitEnvironment", "UIBarButtonItem"]
 - !private ["PSo18UITraitEnvironment", "UIColor"]
 - !private ["PSo18UITraitEnvironment", "UIDelegate"]
@@ -2244,12 +2418,13 @@ depends-member:
 - ["PSo18UITraitEnvironment", "pageUrl"]
 - !private ["PSo18UITraitEnvironment", "panGestureRecognizer"]
 - !private ["PSo18UITraitEnvironment", "presentViewController"]
-- !private ["PSo18UITraitEnvironment", "print"]
 - !private ["PSo18UITraitEnvironment", "progressTintColor"]
 - ["PSo18UITraitEnvironment", "progressView"]
 - ["PSo18UITraitEnvironment", "queryForBookmark"]
 - ["PSo18UITraitEnvironment", "refresh"]
 - !private ["PSo18UITraitEnvironment", "removeObserver"]
+- ["PSo18UITraitEnvironment", "safariButton"]
+- ["PSo18UITraitEnvironment", "safariTapped"]
 - !private ["PSo18UITraitEnvironment", "scrollView"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndDecelerating"]
 - ["PSo18UITraitEnvironment", "scrollViewDidEndDragging"]
@@ -2335,6 +2510,7 @@ depends-member:
 - !private ["CSo16UIViewController", "UIActivityViewController"]
 - !private ["CSo16UIViewController", "UIAlertAction"]
 - !private ["CSo16UIViewController", "UIAlertController"]
+- !private ["CSo16UIViewController", "UIApplication"]
 - ["CSo16UIViewController", "UIBarButtonItem"]
 - !private ["CSo16UIViewController", "UIColor"]
 - !private ["CSo16UIViewController", "UIImage"]
@@ -2375,10 +2551,11 @@ depends-member:
 - ["CSo16UIViewController", "observeValueForKeyPath"]
 - ["CSo16UIViewController", "pageUrl"]
 - !private ["CSo16UIViewController", "presentViewController"]
-- !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "progressView"]
 - ["CSo16UIViewController", "queryForBookmark"]
 - ["CSo16UIViewController", "refresh"]
+- ["CSo16UIViewController", "safariButton"]
+- ["CSo16UIViewController", "safariTapped"]
 - ["CSo16UIViewController", "scrollViewDidEndDecelerating"]
 - ["CSo16UIViewController", "scrollViewDidEndDragging"]
 - ["CSo16UIViewController", "scrollViewDidEndScrollingAnimation"]
@@ -2413,6 +2590,7 @@ depends-member:
 - !private ["VSs6UInt64", "deinit"]
 - !private ["VSs5UInt8", "deinit"]
 - !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "componentsSeparatedByString"]
 - !private ["PSs31UnicodeScalarLiteralConvertible", "dataUsingEncoding"]
 - !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
 - !private ["CSo18WKNavigationAction", "request"]
@@ -2434,6 +2612,7 @@ depends-member:
 - !private ["PSo20WKNavigationDelegate", "UIActivityViewController"]
 - !private ["PSo20WKNavigationDelegate", "UIAlertAction"]
 - !private ["PSo20WKNavigationDelegate", "UIAlertController"]
+- !private ["PSo20WKNavigationDelegate", "UIApplication"]
 - !private ["PSo20WKNavigationDelegate", "UIBarButtonItem"]
 - !private ["PSo20WKNavigationDelegate", "UIColor"]
 - !private ["PSo20WKNavigationDelegate", "UIImage"]
@@ -2458,9 +2637,9 @@ depends-member:
 - !private ["PSo20WKNavigationDelegate", "navigationItem"]
 - !private ["PSo20WKNavigationDelegate", "pageUrl"]
 - !private ["PSo20WKNavigationDelegate", "presentViewController"]
-- !private ["PSo20WKNavigationDelegate", "print"]
 - !private ["PSo20WKNavigationDelegate", "progressView"]
 - !private ["PSo20WKNavigationDelegate", "refresh"]
+- !private ["PSo20WKNavigationDelegate", "safariButton"]
 - ["PSo20WKNavigationDelegate", "scrollViewDidEndDecelerating"]
 - ["PSo20WKNavigationDelegate", "scrollViewDidEndDragging"]
 - ["PSo20WKNavigationDelegate", "scrollViewDidEndScrollingAnimation"]
@@ -2503,6 +2682,7 @@ depends-member:
 - !private ["PSo12WKUIDelegate", "UIActivityViewController"]
 - !private ["PSo12WKUIDelegate", "UIAlertAction"]
 - !private ["PSo12WKUIDelegate", "UIAlertController"]
+- !private ["PSo12WKUIDelegate", "UIApplication"]
 - !private ["PSo12WKUIDelegate", "UIBarButtonItem"]
 - !private ["PSo12WKUIDelegate", "UIColor"]
 - !private ["PSo12WKUIDelegate", "UIImage"]
@@ -2527,9 +2707,9 @@ depends-member:
 - !private ["PSo12WKUIDelegate", "navigationItem"]
 - !private ["PSo12WKUIDelegate", "pageUrl"]
 - !private ["PSo12WKUIDelegate", "presentViewController"]
-- !private ["PSo12WKUIDelegate", "print"]
 - !private ["PSo12WKUIDelegate", "progressView"]
 - !private ["PSo12WKUIDelegate", "refresh"]
+- !private ["PSo12WKUIDelegate", "safariButton"]
 - ["PSo12WKUIDelegate", "scrollViewDidEndDecelerating"]
 - ["PSo12WKUIDelegate", "scrollViewDidEndDragging"]
 - ["PSo12WKUIDelegate", "scrollViewDidEndScrollingAnimation"]
@@ -2578,35 +2758,74 @@ depends-member:
 - !private ["CSo22WKWebViewConfiguration", "init"]
 - !private ["CSo22WKWebViewConfiguration", "userContentController"]
 - !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "first"]
 - !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "componentsSeparatedByString"]
 - !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "dataUsingEncoding"]
 - !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
 - !private ["PSs31_BuiltinFloatLiteralConvertible", "init"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
 - !private ["PSs33_BuiltinIntegerLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "componentsSeparatedByString"]
 - !private ["PSs32_BuiltinStringLiteralConvertible", "dataUsingEncoding"]
 - !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "componentsSeparatedByString"]
 - !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "dataUsingEncoding"]
 - !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "componentsSeparatedByString"]
 - !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "dataUsingEncoding"]
 - !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
 - !private ["PSs19_CVarArgAlignedType", "init"]
 - !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs16_CocoaStringType", "componentsSeparatedByString"]
 - !private ["PSs16_CocoaStringType", "dataUsingEncoding"]
 - !private ["PSs16_CocoaStringType", "init"]
 - !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "first"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
 - !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
 - !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
 - !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
 - !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "componentsSeparatedByString"]
 - !private ["PSs21_ObjectiveCBridgeable", "dataUsingEncoding"]
+- !private ["PSs21_ObjectiveCBridgeable", "first"]
 - !private ["PSs21_ObjectiveCBridgeable", "init"]
 - !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
 - !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
 - !private ["PSs12_Reflectable", "Key"]
 - !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
 - !private ["PSs12_Reflectable", "UIDelegate"]
 - !private ["PSs12_Reflectable", "URL"]
 - !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_Element"]
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["PSs12_Reflectable", "absoluteString"]
 - !private ["PSs12_Reflectable", "addObserver"]
@@ -2618,9 +2837,11 @@ depends-member:
 - !private ["PSs12_Reflectable", "canGoBack"]
 - !private ["PSs12_Reflectable", "canGoForward"]
 - !private ["PSs12_Reflectable", "center"]
+- !private ["PSs12_Reflectable", "componentsSeparatedByString"]
 - !private ["PSs12_Reflectable", "dataUsingEncoding"]
 - !private ["PSs12_Reflectable", "delegate"]
 - !private ["PSs12_Reflectable", "estimatedProgress"]
+- !private ["PSs12_Reflectable", "first"]
 - !private ["PSs12_Reflectable", "frame"]
 - !private ["PSs12_Reflectable", "goBack"]
 - !private ["PSs12_Reflectable", "goForward"]
@@ -2643,12 +2864,19 @@ depends-member:
 - !private ["PSs12_Reflectable", "width"]
 - !private ["PSs12_Reflectable", "x"]
 - !private ["PSs12_Reflectable", "y"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
 - !private ["PSs11_Strideable", "init"]
 depends-nominal:
 - !private "PSs16AbsoluteValuable"
 - "PSs9AnyObject"
 - !private "Sa"
 - !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
 - !private "C7Shiwake8Bookmark"
 - !private "Sb"
 - !private "PSs25BooleanLiteralConvertible"
@@ -2674,6 +2902,7 @@ depends-nominal:
 - !private "Sf"
 - !private "PSs23FloatLiteralConvertible"
 - !private "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
 - !private "CSo15GTLGmailMessage"
 - !private "CSo9GTLObject"
 - !private "CSo8GTLQuery"
@@ -2681,16 +2910,20 @@ depends-nominal:
 - !private "PSo16GTLQueryProtocol"
 - !private "CSo10GTLService"
 - !private "CSo15GTLServiceGmail"
+- !private "PSs13GeneratorType"
 - !private "C7Shiwake17GmailClientHelper"
 - "PSs8Hashable"
 - !private "SQ"
 - !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
 - !private "Si"
 - !private "VSs5Int16"
 - !private "VSs5Int32"
 - !private "VSs5Int64"
 - !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
 - !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
 - !private "PSs14MirrorPathType"
 - !private "PSs21MutableCollectionType"
 - !private "PSs16MutableIndexable"
@@ -2721,12 +2954,14 @@ depends-nominal:
 - !private "PSs13OptionSetType"
 - !private "Sq"
 - !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
 - !private "VSs5Range"
 - !private "PSs30RangeReplaceableCollectionType"
 - !private "PSs16RawRepresentable"
 - !private "V10ObjectiveC8Selector"
 - !private "PSs12SequenceType"
 - !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
 - !private "PSs16SignedNumberType"
 - !private "PSs10Streamable"
 - !private "PSs10Strideable"
@@ -2741,6 +2976,7 @@ depends-nominal:
 - !private "OSC22UIAlertControllerStyle"
 - !private "PSo12UIAppearance"
 - "PSo21UIAppearanceContainer"
+- !private "CSo13UIApplication"
 - !private "CSo15UIBarButtonItem"
 - !private "OSC20UIBarButtonItemStyle"
 - !private "OSC21UIBarButtonSystemItem"
@@ -2793,9 +3029,14 @@ depends-nominal:
 - !private "PSs22_CVarArgPassedAsDouble"
 - !private "PSs16_CocoaStringType"
 - !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
 - !private "PSs21_ObjectiveCBridgeable"
 - !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
 - !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
 - !private "PSs11_Strideable"
 depends-dynamic-lookup:
 depends-external:
@@ -2849,4 +3090,4 @@ depends-external:
 - "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MGSwipeTableCell/MGSwipeButton.h"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/WebKit.swiftmodule"
-interface-hash: "8af06a13cec4fb0b35579a11c46ceefe"
+interface-hash: "0c6dee8d2c40ae8f7dd9ddf7c809046c"

@@ -6,18 +6,18 @@ provides-nominal:
 provides-member:
 - ["C7Shiwake5Label", ""]
 provides-dynamic-lookup:
-- "labelId"
 - "mails"
 - "id"
+- "labelId"
 depends-top-level:
-- "NSManagedObject"
-- "NSManagedObjectContext"
 - "NSEntityDescription"
-- "Mail"
-- "Label"
-- !private "StringLiteralType"
+- "NSManagedObjectContext"
 - "AnyObject"
 - "String"
+- "NSManagedObject"
+- !private "StringLiteralType"
+- "Mail"
+- "Label"
 depends-member:
 - !private ["PSs9AnyObject", "NSEntityDescription"]
 - !private ["PSs9AnyObject", "entityForName"]

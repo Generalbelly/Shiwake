@@ -216,7 +216,6 @@ class TrashTableViewController: UITableViewController, MGSwipeTableCellDelegate 
         if segue.identifier == "show" {
             let mvc = segue.destinationViewController as! MailViewController
             mvc.selectedMail = self.selectedMail
-            print(self.selectedMail!.subject, terminator: "")
         }
     }
 

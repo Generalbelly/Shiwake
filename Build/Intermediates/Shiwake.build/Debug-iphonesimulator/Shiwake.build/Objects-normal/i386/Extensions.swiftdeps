@@ -1,0 +1,230 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo7UIColor", ""]
+- ["CSo7UIColor", "hex"]
+provides-dynamic-lookup:
+- "hex"
+depends-top-level:
+- !private "UnicodeScalarType"
+- !private "/"
+- "UIColor"
+- !private "NSScanner"
+- !private "StringLiteralType"
+- !private "String"
+- "NSString"
+- !private "&"
+- "CGFloat"
+- !private ">>"
+- !private "UInt32"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "init"]
+- !private ["PSs9AnyObject", "CGFloat"]
+- !private ["PSs9AnyObject", "NSScanner"]
+- !private ["PSs9AnyObject", "UIColor"]
+- ["PSs9AnyObject", "hex"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "scanHexInt"]
+- !private ["PSs9AnyObject", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs9AnyObject", "whiteColor"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- !private ["PSs11CVarArgType", "CGFloat"]
+- !private ["PSs11CVarArgType", "NSScanner"]
+- !private ["PSs11CVarArgType", "UIColor"]
+- ["PSs11CVarArgType", "hex"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "scanHexInt"]
+- !private ["PSs11CVarArgType", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs11CVarArgType", "whiteColor"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs23CustomStringConvertible", "CGFloat"]
+- !private ["PSs23CustomStringConvertible", "NSScanner"]
+- !private ["PSs23CustomStringConvertible", "UIColor"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "hex"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "scanHexInt"]
+- !private ["PSs23CustomStringConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs23CustomStringConvertible", "whiteColor"]
+- !private ["PSs9Equatable", "CGFloat"]
+- !private ["PSs9Equatable", "NSScanner"]
+- !private ["PSs9Equatable", "UIColor"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "hex"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "scanHexInt"]
+- !private ["PSs9Equatable", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs9Equatable", "whiteColor"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "init"]
+- !private ["PSs8Hashable", "CGFloat"]
+- !private ["PSs8Hashable", "NSScanner"]
+- !private ["PSs8Hashable", "UIColor"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "hex"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "scanHexInt"]
+- !private ["PSs8Hashable", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs8Hashable", "whiteColor"]
+- !private ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "NSScanner"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo8NSCoding", "whiteColor"]
+- !private ["PSo9NSCopying", "CGFloat"]
+- !private ["PSo9NSCopying", "NSScanner"]
+- !private ["PSo9NSCopying", "UIColor"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "scanHexInt"]
+- !private ["PSo9NSCopying", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo9NSCopying", "whiteColor"]
+- !private ["PSo16NSMutableCopying", "stringByReplacingOccurrencesOfString"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "NSScanner"]
+- ["CSo8NSObject", "NSString"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UInt32"]
+- ["CSo8NSObject", "hex"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "scanHexInt"]
+- !private ["CSo8NSObject", "stringByReplacingOccurrencesOfString"]
+- !private ["CSo8NSObject", "whiteColor"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "NSScanner"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- ["PSo16NSObjectProtocol", "hex"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "scanHexInt"]
+- !private ["PSo16NSObjectProtocol", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo16NSObjectProtocol", "whiteColor"]
+- !private ["CSo9NSScanner", "init"]
+- !private ["CSo9NSScanner", "scanHexInt"]
+- !private ["PSo14NSSecureCoding", "CGFloat"]
+- !private ["PSo14NSSecureCoding", "NSScanner"]
+- !private ["PSo14NSSecureCoding", "UIColor"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs16SignedNumberType", "init"]
+- !private ["PSs10Strideable", "init"]
+- !private ["PSs24StringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- ["CSo7UIColor", "CGFloat"]
+- !private ["CSo7UIColor", "NSScanner"]
+- ["CSo7UIColor", "NSString"]
+- !private ["CSo7UIColor", "String"]
+- ["CSo7UIColor", "UIColor"]
+- !private ["CSo7UIColor", "UInt32"]
+- ["CSo7UIColor", "hex"]
+- !private ["CSo7UIColor", "init"]
+- !private ["CSo7UIColor", "whiteColor"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs16_CocoaStringType", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs11_Strideable", "init"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- "PSs8Hashable"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo9NSScanner"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "PSs24StringLiteralConvertible"
+- "CSo7UIColor"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs16_CocoaStringType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Swift.swiftmodule"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Shiwake/Shiwake-Bridging-Header.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-oauth2/GTMOAuth2ViewControllerTouch.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreImage.swiftmodule"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-oauth2/GTMOAuth2Authentication.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-http-fetcher/GTMHTTPFetcher.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmail.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailConstants.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLDefines.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailDraft.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLObject.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLUtilities.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLDateTime.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailHistory.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailLabel.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListDraftsResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListHistoryResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListLabelsResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListMessagesResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailListThreadsResponse.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessage.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessagePart.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessagePartBody.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailMessagePartHeader.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailProfile.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLGmailThread.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLQueryGmail.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLQuery.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLUploadParameters.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLServiceGmail.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLService.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-http-fetcher/GTMHTTPFetcherService.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/gtm-http-fetcher/GTMHTTPFetchHistory.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLBatchQuery.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLBatchResult.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLErrorObject.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLFramework.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/Google-API-Client/GTLJSONParser.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MBProgressHUD/MBProgressHUD.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/DZNEmptyDataSet/UIScrollView+EmptyDataSet.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MGSwipeTableCell/MGSwipeTableCell.h"
+- "/Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Headers/Public/MGSwipeTableCell/MGSwipeButton.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/i386/WebKit.swiftmodule"
+interface-hash: "97c283b516af31c0c7d5e77da04ed5a5"

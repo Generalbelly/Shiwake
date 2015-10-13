@@ -20,8 +20,7 @@ extension UIColor {
             let b = CGFloat(color & 0x0000FF) / 255.0
             return UIColor(red:r,green:g,blue:b,alpha:alpha)
         } else {
-            print("invalid hex string", terminator: "")
-            return UIColor.whiteColor();
+            return UIColor.whiteColor()
         }
     }
 }

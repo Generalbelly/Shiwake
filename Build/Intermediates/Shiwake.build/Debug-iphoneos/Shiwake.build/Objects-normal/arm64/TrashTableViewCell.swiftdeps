@@ -10,9 +10,9 @@ provides-dynamic-lookup:
 - "snippet"
 - "subject"
 depends-top-level:
-- "UILabel"
 - "MGSwipeTableCell"
 - "TrashTableViewCell"
+- "UILabel"
 depends-member:
 - ["PSs9AnyObject", "from"]
 - ["PSs9AnyObject", "init"]

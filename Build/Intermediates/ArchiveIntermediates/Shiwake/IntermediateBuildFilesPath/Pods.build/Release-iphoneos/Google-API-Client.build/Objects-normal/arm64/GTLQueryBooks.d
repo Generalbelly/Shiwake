@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLQueryBooks.m \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Target\ Support\ Files/Google-API-Client/Google-API-Client-prefix.pch \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLQueryBooks.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLQuery.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLObject.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/GTLDefines.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Utilities/GTLUtilities.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLDateTime.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Objects/GTLUploadParameters.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksAnnotation.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksAnnotationdata.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksAnnotations.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksAnnotationsdata.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksAnnotationsSummary.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksBookshelf.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksBookshelves.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksCategory.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksCloudloadingResource.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksDownloadAccesses.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksLayersummaries.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksLayersummary.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksMetadata.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksOffers.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksReadingPosition.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksRequestAccess.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksUsersettings.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksVolume.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksVolume2.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksVolumeannotation.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksVolumeannotations.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksVolumes.h \
+  /Users/shimmennobuyoshi/Downloads/Shiwake/Pods/Google-API-Client/Source/Services/Books/Generated/GTLBooksVolumesRecommendedRateResponse.h

@@ -6,21 +6,21 @@ provides-nominal:
 provides-member:
 - ["C7Shiwake8Bookmark", ""]
 provides-dynamic-lookup:
-- "content"
-- "title"
+- "date"
 - "webpage"
 - "id"
-- "date"
+- "title"
+- "content"
 depends-top-level:
-- "NSManagedObjectContext"
+- "Bookmark"
+- !private "StringLiteralType"
 - "NSManagedObject"
-- "AnyObject"
+- "String"
 - "NSDate"
 - "NSEntityDescription"
-- "String"
-- "Bookmark"
+- "NSManagedObjectContext"
+- "AnyObject"
 - "Bool"
-- !private "StringLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "NSEntityDescription"]
 - ["PSs9AnyObject", "content"]
